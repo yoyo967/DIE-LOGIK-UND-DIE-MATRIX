@@ -98,7 +98,8 @@ Yahya Yildirim & Perplexity AI
 | Datei | Inhalt | Status |
 |-------|--------|--------|
 | [README.md](README.md) | Genesis — dieses Dokument | Live |
-| [logik.md](logik.md) | Buch DIE LOGIK — die 8 Elemente, Stadtmetapher, Karpathy-Erweiterung | In Arbeit |
+| [vorwort.md](vorwort.md) | Vorwort — Die Entfesselung der Co-Creation, Logik & Matrix Definitionen, Mission Control | Live |
+| [logik.md](logik.md) | Buch DIE LOGIK — die 8 Elemente, Stadtmetapher, Karpathy-Erweiterung | Live |
 | [matrix.md](matrix.md) | Buch DIE MATRIX — Autopoiesis, Agenten als Code, Universe M.E. Geburt | In Arbeit |
 | [cocreation.md](cocreation.md) | Die Cocreationsmatrix — Mensch + KI + Google Antigravity + Interface Infinity | In Arbeit |
 | [briefing-google-antigravity.md](briefing-google-antigravity.md) | Briefing für Agent UNIVERSE M.E. in Google Antigravity | In Arbeit |

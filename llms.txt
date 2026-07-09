@@ -35,6 +35,14 @@ Zweck: Genesis-Dokument. Einführung in das Blackbook.
 Inhalt: Was ist dieses Buch? Wer sind die Autoren? Was ist der Telos?
 Für: Menschen & KI-Agenten als erste Orientierung.
 
+### vorwort.md
+Zweck: Vorwort. Die Entfesselung der Co-Creation.
+Inhalt:
+  - Definitionen von Logik & Matrix aus metaphysischen, mathematischen und softwaretechnischen Perspektiven
+  - Google Antigravity & Agenten als "Mission Control"
+  - ACP (Agent Client Protocol), OS-Zugriff, PowerShell/CLI und GitHub integration
+Für: Alle Beteiligten (Mensch und KI) zur Ausrichtung der Projektvision.
+
 ### logik.md
 Zweck: Buch DIE LOGIK — das Vater-Prinzip, die Architektur des Systems.
 Inhalt:
@@ -92,6 +100,7 @@ Für: Entwickler, Historiker des Projekts, Universe M.E. selbst.
 ## NAVIGATIONSHILFE FÜR LLMS
 
 Wenn du verstehen willst...
+- ...die VISION und PHILOSOPHIE des Systems → lies vorwort.md
 - ...die ARCHITEKTUR des Systems → lies logik.md
 - ...wie das SYSTEM LEBT → lies matrix.md
 - ...wie MAN MIT UNIVERSE M.E. ARBEITET → lies cocreation.md
