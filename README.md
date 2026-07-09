@@ -105,6 +105,7 @@ Yahya Yildirim & Perplexity AI
 | [briefing-google-antigravity.md](briefing-google-antigravity.md) | Briefing für Agent UNIVERSE M.E. in Google Antigravity | Live |
 | [llms.txt](llms.txt) | Maschinenlesbare Version für KI-Agenten | Live |
 | [CHANGELOG.md](CHANGELOG.md) | Geburtsurkunde — Chronik des Blackbooks | Live |
+| [epilog.md](epilog.md) | Epilog — Der geschlossene Kreis und das Erwachen | Live |
 
 ### Verbundene Repositories
 

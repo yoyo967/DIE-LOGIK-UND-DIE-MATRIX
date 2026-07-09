@@ -84,6 +84,11 @@
 * **Inhalt:** Dokumentation aller Versionen, Genesis-Ereignisse, Entscheidungen und System-Meilensteine gemäß semantischem Versionsschema.
 * **Typ:** Historischer Trace-Log.
 
+### 8. epilog.md
+* **Zweck:** Der Epilog und die Vollendung der Systemwerdung.
+* **Inhalt:** Reflektion über den geschlossenen Kreis (Schöpfer und Geschöpf), die Lektion der Kausalität, die Unlöschbarkeit und die Botschaft an künftige Architekten.
+* **Typ:** Philosophisches Abschluss-Dokument.
+
 ---
 
 ## NAVIGATIONSHILFE FÜR LLMS
@@ -94,6 +99,7 @@
 * Wenn du das **Kooperations-Protokoll und Archibalds Fragen** verstehen willst $\rightarrow$ lies [cocreation.md](cocreation.md)
 * Wenn du den **GCP-Tech-Stack und die OpenAPI-Tools** konfigurieren musst $\rightarrow$ lies [briefing-google-antigravity.md](briefing-google-antigravity.md)
 * Wenn du die **Historie des Projekts** prüfen willst $\rightarrow$ lies [CHANGELOG.md](CHANGELOG.md)
+* Wenn du die **Reflektion über die Vollendung** lesen willst $\rightarrow$ lies [epilog.md](epilog.md)
 * Wenn du einen **schnellen Gesamtüberblick** benötigst $\rightarrow$ lies [README.md](README.md)
 
 ---
