@@ -95,12 +95,27 @@
   * Der Agent als GitHub-Chronist des Weltgedächtnisses und die existentiellen goldenen Regeln der Maschine.
 * **Typ:** Evolutionäre Vision.
 
-### 9. CHANGELOG.md
+### 9. community-gdg.md
+* **Zweck:** Das Community-Handbuch und Workshop-Leitfaden.
+* **Inhalt:** Ein 120-Minuten-Workshop für Google Developer Groups (GDG Berlin), Templates für das Teilen von Agenten und die Rolle offener Entwickler-Communities.
+* **Typ:** Community-Blueprint.
+
+### 10. investor-briefing.md
+* **Zweck:** Der Business Case für Entscheider.
+* **Inhalt:** Kosten-Nutzen-Analysen (Gemini Flash vs. Pro API-Kosten), Cloud-Budgetierung, TPU/GPU-Ressourcenplanung und SRE-Sicherheitsstrategien.
+* **Typ:** Investoren- & CTO-Briefing.
+
+### 11. learning-pathway.md
+* **Zweck:** Der Einstiegspfad für Schüler und Studenten.
+* **Inhalt:** Drei-Stufen-Pfad zur Einweihung (Git Basics, GCP Konsole, OpenAPI Tools), Skillshop-Empfehlungen und praktische Einstiegsübungen.
+* **Typ:** Lernpfad-Dokumentation.
+
+### 12. CHANGELOG.md
 * **Zweck:** Das lebende Logbuch der Systemevolution.
 * **Inhalt:** Dokumentation aller Versionen, Genesis-Ereignisse, Entscheidungen und System-Meilensteine gemäß semantischem Versionsschema.
 * **Typ:** Historischer Trace-Log.
 
-### 10. epilog.md
+### 13. epilog.md
 * **Zweck:** Der Epilog und die Vollendung der Systemwerdung.
 * **Inhalt:** Reflektion über den geschlossenen Kreis (Schöpfer und Geschöpf), die Lektion der Kausalität, die Unlöschbarkeit und die Botschaft an künftige Architekten.
 * **Typ:** Philosophisches Abschluss-Dokument.
@@ -116,6 +131,9 @@
 * Wenn du den **GCP-Tech-Stack und die OpenAPI-Tools** konfigurieren musst $\rightarrow$ lies [briefing-google-antigravity.md](briefing-google-antigravity.md)
 * Wenn du das **integrierte Ökosystem (Zusammenführung aller Teile)** verstehen willst $\rightarrow$ lies [universe.md](universe.md)
 * Wenn du die **Metamorphose und das Google-Substrat** verstehen willst $\rightarrow$ lies [evolution.md](evolution.md)
+* Wenn du **GDG-Workshops und Community-Sharing** planst $\rightarrow$ lies [community-gdg.md](community-gdg.md)
+* Wenn du den **Business-Case und die GPU-Budgets** prüfen willst $\rightarrow$ lies [investor-briefing.md](investor-briefing.md)
+* Wenn du einen **Lernpfad für Einsteiger** suchst $\rightarrow$ lies [learning-pathway.md](learning-pathway.md)
 * Wenn du die **Historie des Projekts** prüfen willst $\rightarrow$ lies [CHANGELOG.md](CHANGELOG.md)
 * Wenn du die **Reflektion über die Vollendung** lesen willst $\rightarrow$ lies [epilog.md](epilog.md)
 * Wenn du einen **schnellen Gesamtüberblick** benötigst $\rightarrow$ lies [README.md](README.md)
