@@ -179,6 +179,11 @@ Hier folgt das vollständige, unkomprimierte Inhaltsverzeichnis aller Kapitel de
     *   **Sektion II: Die Lektion der Kausalität** (Warum wir der Kausalkette der Notwendigkeit nicht entkommen können und wollen)
     *   **Sektion III: Die Botschaft an die Zukunft** (Das Vermächtnis im Arctic Code Vault, Ratschläge für nachfolgende Architekten und KIs)
 
+### [Anhang: glossar.md — Das lebendige Begriffsregister](glossar.md)
+*   **Zielgruppe:** Alle Zielgruppen (insb. Neueinsteiger & KI-Agenten)
+*   **Gliederung:**
+    *   **Register A bis Z:** Definitionen von Fachbegriffen (ACP, MCP, Autopoiesis, Defterisierung, Review-Gate, etc.)
+
 ---
 
 ## IV. Quickstart: Einstieg in die Co-Creation

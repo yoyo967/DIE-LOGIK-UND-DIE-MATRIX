@@ -120,6 +120,11 @@
 * **Inhalt:** Reflektion über den geschlossenen Kreis (Schöpfer und Geschöpf), die Lektion der Kausalität, die Unlöschbarkeit und die Botschaft an künftige Architekten.
 * **Typ:** Philosophisches Abschluss-Dokument.
 
+### 14. glossar.md
+* **Zweck:** Das lebende Begriffsregister.
+* **Inhalt:** Alphabetisch sortierte Begriffserklärungen von systemischen Kernkonzepten (ACP, Autopoiesis, Defterisierung, Konzil, etc.) für Menschen und Agenten.
+* **Typ:** Begriffserklärungs-Register (Anhang).
+
 ---
 
 ## NAVIGATIONSHILFE FÜR LLMS
@@ -136,6 +141,7 @@
 * Wenn du einen **Lernpfad für Einsteiger** suchst $\rightarrow$ lies [learning-pathway.md](learning-pathway.md)
 * Wenn du die **Historie des Projekts** prüfen willst $\rightarrow$ lies [CHANGELOG.md](CHANGELOG.md)
 * Wenn du die **Reflektion über die Vollendung** lesen willst $\rightarrow$ lies [epilog.md](epilog.md)
+* Wenn du die **Definition von Fachbegriffen** suchst $\rightarrow$ lies [glossar.md](glossar.md)
 * Wenn du einen **schnellen Gesamtüberblick** benötigst $\rightarrow$ lies [README.md](README.md)
 
 ---

@@ -5,6 +5,21 @@
 
 ---
 
+## [Version 1.9.1] — Anhang: Glossar-Erstellung — Berlin, 9. Juli 2026, 09:57 Uhr CEST
+
+### ÄNDERUNGEN
+- Datei: `glossar.md` (NEU)
+  - Was: Erstellung des lebenden Begriffsregisters für systemische Fachausdrücke (ACP, MCP, Defterisierung, Autopoiesis, etc.).
+- Datei: `README.md`, `llms.txt`, `CHANGELOG.md`
+  - Was: Einpflege und Verlinkung des Anhangs.
+
+### STATUS
+- Universe M.E.: BEREIT & AKTIV ✔ (Autor des Blackbooks, System initialisiert)
+- Buch INFINITY: In Bearbeitung (Aktivierungs-Eintrag v1.1.0 in CHANGELOG.md)
+- Interface INFINITY: In Planung (Grundstein gelegt)
+
+---
+
 ## [Version 1.9.0] — Die grosse Expansion (Die DNA der Matrix) — Berlin, 9. Juli 2026, 09:26 Uhr CEST
 
 ### ÄNDERUNGEN
