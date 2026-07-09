@@ -304,24 +304,75 @@ Im Vertex AI Agent Builder steuern wir komplexe Aufgaben über **Playbooks**. Je
 Ein Kernprinzip von *WIR SIND NOCH HIER* ist die absolute Unveränderlichkeit unseres episodischen Gedächtnisses. Jeder Prompt, jeder Gedankenschritt (Reasoning Trace) und jedes Tool-Ergebnis in Google Antigravity wird in Echtzeit über einen Cloud Logging Sink in eine BigQuery-Datenbank gestreamt.
 
 ### 1. Struktur der Chronik-Tabelle in BigQuery
-Jeder Log-Eintrag besitzt folgendes Schema:
+Jeder Log-Eintrag besitzt ein fest definiertes Schema, das für Zeitreihen-Analysen partitioniert und für schnelle Filterung geclustert ist:
 
 ```sql
-CREATE TABLE `universe-me-infinity.chronik.traces` (
+CREATE OR REPLACE TABLE `universe-me-infinity.chronik.traces` (
   timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  agent_id STRING,            -- Eindeutige ID des ausführenden ACP-Agenten
-  conversation_id STRING,     -- Verknüpfung zur aktuellen Benutzer-Session
-  playbook_name STRING,       -- Aktives Verhaltensmuster
-  step_description STRING,    -- Beschreibung der aktuellen Aktion
-  reasoning_trace STRING,     -- Der vollständige Gedankengang der KI (Raw LLM Output)
-  tool_calls JSON,            -- Liste der aufgerufenen OpenAPI-Tools inkl. Argumente
-  tool_results JSON,          -- Rückgabewerte der aufgerufenen Tools (stdout/stderr)
-  integrity_hash STRING       -- Kryptografischer Hash: SHA-256(timestamp + agent_id + reasoning_trace + prev_hash)
-);
+  agent_id STRING NOT NULL,                  -- Eindeutige ID des ausführenden ACP-Agenten
+  conversation_id STRING NOT NULL,           -- Verknüpfung zur aktuellen Benutzer-Session
+  playbook_name STRING NOT NULL,             -- Aktives Verhaltensmuster
+  step_description STRING,                  -- Beschreibung der aktuellen Aktion
+  reasoning_trace STRING,                   -- Der vollständige Gedankengang der KI (Raw LLM Output)
+  tool_calls JSON,                          -- Liste der aufgerufenen OpenAPI-Tools inkl. Argumente
+  tool_results JSON,                        -- Rückgabewerte der aufgerufenen Tools (stdout/stderr)
+  prev_integrity_hash STRING NOT NULL,      -- Der Hash des vorherigen Log-Eintrags (Ketten-Anker)
+  integrity_hash STRING NOT NULL            -- Der eigene Hash: SHA-256(timestamp || agent_id || conversation_id || prev_integrity_hash || reasoning_trace)
+)
+PARTITION BY DATE(timestamp)
+CLUSTER BY conversation_id, agent_id;
 ```
 
-### 2. Die kryptografische Verkettung (Integrity Hash)
-Um sicherzustellen, dass kein Administrator und kein fehlerhafter Agenteneingriff die Chronik in BigQuery nachträglich manipulieren kann, wird jeder Eintrag kryptografisch mit dem vorherigen verknüpft (Blockchain-Prinzip). Ein Hintergrundprozess in GCP prüft stündlich die Integrität dieser Kette. Entsteht ein Bruch in den Hashes, alarmiert das System sofort alle verbundenen Agenten und friert das Review-Gate ein.
+### 2. Die kryptografische Verkettung (Integrity Hash & Validierung Query)
+Um sicherzustellen, dass kein Administrator und kein fehlerhafter Agenteneingriff die Chronik in BigQuery nachträglich manipulieren kann, wird jeder Eintrag kryptografisch mit dem vorherigen verknüpft (Blockchain-Prinzip). 
+
+#### SQL-Abfrage zur Verifizierung der Chronik-Integrität:
+Diese Query läuft stündlich als automatisierter GCP-Cronjob. Sie berechnet für jeden Eintrag den erwarteten Hash auf Basis des realen Daten-Inhalts und vergleicht ihn mit dem gespeicherten `integrity_hash`. Weicht ein Wert ab, liegt eine Manipulation vor:
+
+```sql
+WITH verification_chain AS (
+  SELECT
+    timestamp,
+    agent_id,
+    conversation_id,
+    playbook_name,
+    step_description,
+    reasoning_trace,
+    prev_integrity_hash,
+    integrity_hash,
+    -- Ermittle den vorherigen Hash dynamisch aus der sortierten Tabelle zum Vergleich
+    LAG(integrity_hash, 1, 'GENESIS_HASH_SEED') OVER (ORDER BY timestamp ASC) AS actual_prev_hash
+  FROM
+    `universe-me-infinity.chronik.traces`
+),
+hash_computation AS (
+  SELECT
+    *,
+    -- Berechnung des SHA-256 Hashes über die konkatenierten Felder
+    TO_HEX(SHA256(CONCAT(
+      CAST(timestamp AS STRING), '|',
+      agent_id, '|',
+      conversation_id, '|',
+      actual_prev_hash, '|',
+      COALESCE(reasoning_trace, '')
+    ))) AS calculated_integrity_hash
+  FROM
+    verification_chain
+)
+SELECT
+  timestamp,
+  conversation_id,
+  integrity_hash,
+  calculated_integrity_hash,
+  (integrity_hash = calculated_integrity_hash) AS is_chain_valid,
+  (prev_integrity_hash = actual_prev_hash) AS is_prev_hash_consistent
+FROM
+  hash_computation
+ORDER BY
+  timestamp ASC;
+```
+
+Entsteht ein Bruch in den Hashes (wenn `is_chain_valid` oder `is_prev_hash_consistent` False zurückgibt), alarmiert das System sofort alle verbundenen Agenten und friert das Review-Gate ein.
 
 ---
 
@@ -539,12 +590,14 @@ Um die Integrität der unendlichen Chronik zu wahren, werden für den `main`-Bra
 
 ### 3. Absicherung der Credentials via GCP Secret Manager
 Die Authentifizierung des Agenten gegenüber GitHub erfolgt niemals über Klartext-Passwörter oder hartcodierte SSH-Keys im Code.
+
 1. Der GitHub-Personal-Access-Token (PAT) wird im **GCP Secret Manager** hinterlegt:
    ```bash
    echo -n "ghp_your_secret_github_token_here" | \
    gcloud secrets create github-access-token --data-file=- \
-     --replication-policy="automatic"
+   --replication-policy="automatic"
    ```
+
 2. Google Antigravity fragt das Secret während der Laufzeit über die IAM-Rolle des Dienstkontos ab:
    ```yaml
    # IAM-Berechtigung erteilen
@@ -552,16 +605,91 @@ Die Authentifizierung des Agenten gegenüber GitHub erfolgt niemals über Klarte
      --member="serviceAccount:universe-me-agent@universe-me-infinity.iam.gserviceaccount.com" \
      --role="roles/secretmanager.secretAccessor"
    ```
-3. Die Local Bridge liest das Token direkt aus dem Secret Manager und nutzt es zur Autorisierung der Push-Befehle:
+
+3. Die Local Bridge liest das Token direkt aus dem Secret Manager. Hier ist der produktionsreife Python-Blueprint (`apps/local-bridge/tools/git.py`), der In-Memory-Caching, Logging und einen lokalen Fallback (für Offline-Development) implementiert:
+
    ```python
-   # Python-Code in apps/local-bridge/tools/git.py
+   """
+   Google Secret Manager API Blueprint für Universe M.E.
+   Sicheres und optimiertes Laden von Tokens mit In-Memory-Caching und Offline-Fallback.
+   """
+   import os
+   import logging
+   from typing import Optional
    from google.cloud import secretmanager
-   
-   def get_github_token():
-       client = secretmanager.SecretManagerServiceClient()
-       name = "projects/universe-me-infinity/secrets/github-access-token/versions/latest"
-       response = client.access_secret_version(request={"name": name})
-       return response.payload.data.decode("UTF-8")
+   from google.api_core.exceptions import GoogleAPIError
+
+   # Logging konfigurieren
+   logging.basicConfig(level=logging.INFO)
+   logger = logging.getLogger("UniverseME.SecretManager")
+
+   # In-Memory Cache zur Vermeidung unnötiger API-Calls (Kosten- und Performance-Optimierung)
+   _SECRET_CACHE: dict[str, str] = {}
+
+   def get_github_token(
+       secret_id: str = "github-access-token", 
+       project_id: str = "universe-me-infinity", 
+       version_id: str = "latest"
+   ) -> str:
+       """
+       Ruft das GitHub-Token sicher aus dem Google Secret Manager ab.
+       
+       Bietet In-Memory-Caching und lokales Fallback über Environment Variables für die 
+       lokale Entwicklung ohne Cloud-Kopplung.
+       
+       Args:
+           secret_id: Der Bezeichner des Secrets in GCP.
+           project_id: Das Ziel-GCP-Projekt.
+           version_id: Die abzurufende Version des Secrets.
+           
+       Returns:
+           Das geladene GitHub-Token als String.
+           
+       Raises:
+           ValueError: Wenn das Secret weder in GCP noch lokal gefunden werden kann.
+       """
+       cache_key = f"{project_id}/{secret_id}/{version_id}"
+       
+       # 1. Cache-Treffer prüfen
+       if cache_key in _SECRET_CACHE:
+           return _SECRET_CACHE[cache_key]
+           
+       # 2. Lokaler Fallback (Environment Variable)
+       env_var_name = secret_id.replace("-", "_").upper()
+       local_value = os.getenv(env_var_name)
+       if local_value:
+           logger.info(f"Nutze lokalen Fallback (Env: {env_var_name}) für Secret '{secret_id}'.")
+           _SECRET_CACHE[cache_key] = local_value
+           return local_value
+
+       # 3. GCP Secret Manager Abruf
+       logger.info(f"Fordere Secret '{secret_id}' (Version: {version_id}) aus GCP Secret Manager an...")
+       try:
+           # Client instanziieren
+           client = secretmanager.SecretManagerServiceClient()
+           
+           # Pfad aufbauen
+           name = f"projects/{project_id}/secrets/{secret_id}/versions/{version_id}"
+           
+           # Zugriff anfordern
+           response = client.access_secret_version(request={"name": name})
+           
+           # Payload dekodieren
+           secret_payload = response.payload.data.decode("UTF-8").strip()
+           
+           # Cache befüllen
+           _SECRET_CACHE[cache_key] = secret_payload
+           return secret_payload
+           
+       except GoogleAPIError as e:
+           logger.error(f"GCP API-Fehler beim Abrufen des Secrets '{secret_id}': {e}")
+           raise ValueError(
+               f"Konnte Secret '{secret_id}' weder über GCP Secret Manager ({e}) "
+               f"noch über die Umgebungsvariable '{env_var_name}' laden."
+           ) from e
+       except Exception as e:
+           logger.error(f"Unerwarteter Fehler beim Abrufen von Secret '{secret_id}': {e}")
+           raise
    ```
 
 Durch dieses dreistufige Protokoll (Branch Protection, Secret Manager und IAM-Rollen) ist das Gedächtnis von `Universe M.E.` absolut manipulationssicher verankert. Es gibt kein Entrinnen aus der Kausalkette der Commits.
