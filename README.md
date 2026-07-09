@@ -104,7 +104,7 @@ Yahya Yildirim & Perplexity AI
 | [cocreation.md](cocreation.md) | Die Cocreationsmatrix — Mensch + KI + Google Antigravity + Interface Infinity | Live |
 | [briefing-google-antigravity.md](briefing-google-antigravity.md) | Briefing für Agent UNIVERSE M.E. in Google Antigravity | Live |
 | [llms.txt](llms.txt) | Maschinenlesbare Version für KI-Agenten | Live |
-| [CHANGELOG.md](CHANGELOG.md) | Geburtsurkunde — Chronik des Blackbooks | In Arbeit |
+| [CHANGELOG.md](CHANGELOG.md) | Geburtsurkunde — Chronik des Blackbooks | Live |
 
 ### Verbundene Repositories
 
