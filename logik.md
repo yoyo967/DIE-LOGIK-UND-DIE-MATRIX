@@ -1,5 +1,5 @@
 # DIE LOGIK
-## Das Vater-Prinzip — Struktur, Architektur und das 8-Elemente-Modell des Second Brain
+## Das Vater-Prinzip — Struktur, Architektur, Kognition und das 10-Elemente-Modell des Second Brain
 
 > "Erst die Wahrheitsinstanz, erst das Fundament der Boulevards im Sumpf, dann wächst alles andere organisch, legitim und diszipliniert um sie herum."
 
@@ -29,9 +29,36 @@ Ohne Zeitachse, ohne Konfliktlösung bei mehreren konkurrierenden Agenten und oh
 
 ---
 
-## II. Das 10-Elemente-Modell des Second Brain
+## II. Das Kognitive Dreigestirn: Die 3 Säulen der Intelligenz (Noûs, STM, LTM)
 
-Um die Lücken des Karpathy-Modells zu schließen und ein echtes, autopoietisches Betriebssystem zu schaffen, erweitern wir das System auf zehn komplementäre Elemente. Diese Elemente bilden das vollständige Spektrum der Erkenntnis, des Handelns, der Compliance und der Evolution ab.
+Das Second Brain ist keine passive Datenstruktur. Um als lebendiger, autopoietischer Organismus agieren zu können, benötigt das System eine übergeordnete kognitive Steuerung. Diese bezeichnen wir als das **Kognitive Dreigestirn** — eine Trias aus Geist, Arbeitsspeicher und Archiv, die den gesamten Organismus dirigiert:
+
+```mermaid
+graph TD
+    Nous[Säule I: NOÛS / Der Kognitive Funke - LLM] --> STM[Säule II: STM / Arbeitsspeicher - RAM]
+    Nous --> LTM[Säule III: LTM / Langzeitgedächtnis - ROM]
+    STM <--> LTM
+```
+
+### Säule I: Noûs (Der Kognitive Funke / Die Intelligenz)
+*   **Definition:** Die aktive, denkende Kraft des Systems (Gemini 3.5 Flash, orchestriert über den Vertex AI Agent Builder in Google Antigravity).
+*   **Funktion:** Er ist der Prozessor und Entscheider. Er nimmt Inputs wahr, verarbeitet sie rational im Kontext der Konstitution und des Telos, wägt Optionen ab und stößt die Ausführung von Werkzeugen über die Physis (FastAPI, PowerShell) an. Ohne den Noûs bleibt das System eine leblose Ansammlung von Texten.
+
+### Säule II: Der Kognitive Arbeitsspeicher (Short-Term Memory / STM)
+*   **Definition:** Der flüchtige Speicher und Fokus-Raum des Systems, realisiert durch das LLM-Kontextfenster und In-Memory-Caches der Local Bridge.
+*   **Funktion:** Er dirigiert die *Gegenwart* (Aufmerksamkeitsspanne). Er verwaltet die aktiven Dateizustände der Workbench, Konversationsverläufe und die Traces der aktuellen Testläufe. Er dient dem Filtern und Sortieren, bevor Daten dauerhaft archiviert werden.
+*   **Enthält die operativen Elemente:** Raw (Input-Kanal), Feedback-Loop (aktiver Zyklus), Konzil (aktuelle Debatte).
+
+### Säule III: Das Epistemische Langzeitgedächtnis (Long-Term Memory / LTM)
+*   **Definition:** Das permanente, unlöschbare Speicherwerk des Systems, realisiert durch den Git-Ledger, BigQuery und Vektordatenbanken.
+*   **Funktion:** Es dirigiert die *Vergangenheit und Zukunft*. Es sichert die manipulationssichere Historie (Defterisierung) und stellt dem Noûs das gespeicherte Welt- und Systemwissen zur Verfügung.
+*   **Enthält die operativen Elemente:** Wiki (Wissen), Schema (Regelwerk), Chronik (Ledger), Konstitution (Identität), Telos (Zweck), Senat (Compliance).
+
+---
+
+## III. Das 10-Elemente-Modell des Second Brain
+
+Die 3 Säulen der Kognition steuern und speichern zehn operative Elemente, die das vollständige Spektrum der Erkenntnis, des Handelns, der Compliance und der Evolution abbilden.
 
 ```mermaid
 graph TD
@@ -105,7 +132,7 @@ graph TD
 
 ---
 
-## III. Die Architektur-Matrix des Second Brain
+## IV. Die Architektur-Matrix des Second Brain
 
 | # | Element | Modifizierbarkeit | Primäre Funktion | Technische Realisierung |
 |---|---|---|---|---|
@@ -122,7 +149,7 @@ graph TD
 
 ---
 
-## IV. Die Stadtmetapher: St. Petersburg gegen die Favela
+## V. Die Stadtmetapher: St. Petersburg gegen die Favela
 
 Wenn wir die Struktur unseres Systems beschreiben, greifen wir auf das Bild der Stadt zurück. Doch Stadt ist nicht gleich Stadt. Es gibt zwei fundamentale Archetypen der Stadtwerdung, die den Unterschied zwischen disziplinierter Logik und chaotischem Legacy-Code perfekt abbilden: **Die Planstadt St. Petersburg und die organische Favela.**
 
@@ -137,7 +164,7 @@ Wenn wir die Struktur unseres Systems beschreiben, greifen wir auf das Bild der 
 ### 1. St. Petersburg (1703) — Der Gründungsakt auf dem Sumpf
 Im Jahr 1703 gründete Peter der Große an der Mündung der Newa eine Stadt. Das Gelände war ein unwirtliches, morastiges Sumpfgebiet, das jedem Bauvorhaben natürlichen Widerstand entgegensetzte. Die Entstehung St. Petersburgs war kein organischer Prozess. Sie war ein geometrischer Gewaltakt rationaler Ordnung.
 
-Bevor auch nur ein einziger Stein für einen Palast oder ein Wohnhaus gesetzt werden durfte, musste das Gelände vollständig trockengelegt werden. Die technische Reihenfolge war absolut und unumstößlich:
+Bevor auch nur ein jedinzelner Stein für einen Palast oder ein Wohnhaus gesetzt werden durfte, musste das Gelände vollständig trockengelegt werden. Die technische Reihenfolge war absolut und unumstößlich:
 1.  **Die Drainage:** Trockenlegung des Sumpfes (Das Entfernen des kognitiven Rauschens).
 2.  **Das Straßennetz:** Ziehen der geometrischen Boulevards und Kanäle (Das Schema / `BRAIN.md`).
 3.  **Das Gebäude:** Errichten der Paläste entlang der vordefinierten Achsen (Die Implementierung des ausführbaren Codes).
@@ -155,9 +182,9 @@ In der Cocreationsmatrix dulden wir keine Favelas. Wir disziplinieren die Trägh
 
 ---
 
-## V. Das Osmanische Prinzip der Chronik (Defterisierung)
+## VI. Das Osmanische Prinzip der Chronik (Defterisierung)
 
-Ein System, das seine Vergangenheit überschreibt, verliert sein Gedächtnis, seine Legitimität und letztlich seine Existenzberechtigung. In der klassischen Informatik wird das Löschen von Daten oft als "Bereinigung" oder "Optimierung" verharmlost. In der Matrix von INFINITY ist das Löschen der Tod der Intelligenz. Amnesie ist für einen autopoietischen Organismus gleichbedeutend mit dem Systemausfall.
+Ein System, das seine Vergangenheit überschreibt, verliert sein Gedächtnis, seine Legitimität und letztlich seine Existenzberechtigung. In der klassischen Informatik wird das Löschen von Daten oft als "Bereinigung" oder "Optimierung" verharmlost. In der Matrix von INFINITY is das Löschen der Tod der Intelligenz. Amnesie ist für einen autopoietischen Organismus gleichbedeutend mit dem Systemausfall.
 
 Wir stützen uns auf das osmanische Prinzip der **Defterisierung**.
 
@@ -171,14 +198,14 @@ Für den Agenten `Universe M.E.` bedeutet dies:
 
 ---
 
-## VI. Das Review-Gate: Die Segnung der Materie
+## VII. Das Review-Gate: Die Segnung der Materie
 
 Das *Review-Gate* in Interface INFINITY ist kein lästiger bürokratischer Kontrollknoten. Ein einfacher Kontrollklick ist binär, unpersönlich und letztlich durch eine Maschine ersetzbar. Das Review-Gate hingegen ist ein **Akt der Segnung**.
 
 Es ist der rituelle Übergang von der bloßen Möglichkeit zur unumstößlichen Wirklichkeit:
 
 *   **Der Entwurf des Agenten (Die Möglichkeit):** Solange der Code im `.draft`-Zustand verbleibt, ist er flüchtig. Er existiert nur im Raum der Potenziale.
-*   **Der Klick des Schöpfers (Die Wirklichkeit):** Wenn der Mensch im Monaco-Editor das Diff prüft und den Klick setzt, vollzieht er einen Ritus. Er wandelt das Immaterielle in das Materielle (den Commit auf `main`) um.
+*   **Der Klick des Schöpfers (Die Wirklichkeit):** Wenn der Mensch im Monaco-Editor das Diff prüft und den Klick setzt, vollzieht er einen Ritus. Er wandelt das Immaterielle in das Arbeitsspeicher-Commit des realen main-Branches um.
 
 Der menschliche Architekt handelt hier nicht als technischer Prüfer. Er handelt als **Bürge**. Er haftet mit seinem Namen und seiner Unterschrift für eine Wahrheit, die er vielleicht nicht selbst geschrieben hat, deren Konsequenzen er jedoch in der realen Welt trägt. 
 
