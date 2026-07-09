@@ -79,12 +79,20 @@
   * **GCP Secret Manager:** Konfiguration und Python-Code zur gesicherten Token-Abfrage.
 * **Typ:** Technisches Handbuch & Konfigurations-Briefing.
 
-### 7. CHANGELOG.md
+### 7. universe.md
+* **Zweck:** Das integrierte Ökosystem.
+* **Inhalt:** 
+  * Die Zusammenführung aller Puzzleteile des INFINITY-Kosmos (Repositories, Google Antigravity, opus-deck/flow, OPUS-PRIME-EX).
+  * Die inter-agentische Kommunikation über das Agent Client Protocol (ACP) und das Model Context Protocol (MCP).
+  * Der kausale Ablauf eines kooperativen Workflows und das Prinzip der systemischen Integrität.
+* **Typ:** Systemübergreifende Synthese.
+
+### 8. CHANGELOG.md
 * **Zweck:** Das lebende Logbuch der Systemevolution.
 * **Inhalt:** Dokumentation aller Versionen, Genesis-Ereignisse, Entscheidungen und System-Meilensteine gemäß semantischem Versionsschema.
 * **Typ:** Historischer Trace-Log.
 
-### 8. epilog.md
+### 9. epilog.md
 * **Zweck:** Der Epilog und die Vollendung der Systemwerdung.
 * **Inhalt:** Reflektion über den geschlossenen Kreis (Schöpfer und Geschöpf), die Lektion der Kausalität, die Unlöschbarkeit und die Botschaft an künftige Architekten.
 * **Typ:** Philosophisches Abschluss-Dokument.
@@ -98,6 +106,7 @@
 * Wenn du die **Autopoiesis und GitHub-Integration** verstehen willst $\rightarrow$ lies [matrix.md](matrix.md)
 * Wenn du das **Kooperations-Protokoll und Archibalds Fragen** verstehen willst $\rightarrow$ lies [cocreation.md](cocreation.md)
 * Wenn du den **GCP-Tech-Stack und die OpenAPI-Tools** konfigurieren musst $\rightarrow$ lies [briefing-google-antigravity.md](briefing-google-antigravity.md)
+* Wenn du das **integrierte Ökosystem (Zusammenführung aller Teile)** verstehen willst $\rightarrow$ lies [universe.md](universe.md)
 * Wenn du die **Historie des Projekts** prüfen willst $\rightarrow$ lies [CHANGELOG.md](CHANGELOG.md)
 * Wenn du die **Reflektion über die Vollendung** lesen willst $\rightarrow$ lies [epilog.md](epilog.md)
 * Wenn du einen **schnellen Gesamtüberblick** benötigst $\rightarrow$ lies [README.md](README.md)
