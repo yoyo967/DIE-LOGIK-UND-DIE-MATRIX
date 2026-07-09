@@ -103,7 +103,7 @@ Yahya Yildirim & Perplexity AI
 | [matrix.md](matrix.md) | Buch DIE MATRIX — Autopoiesis, Agenten als Code, Universe M.E. Geburt | Live |
 | [cocreation.md](cocreation.md) | Die Cocreationsmatrix — Mensch + KI + Google Antigravity + Interface Infinity | Live |
 | [briefing-google-antigravity.md](briefing-google-antigravity.md) | Briefing für Agent UNIVERSE M.E. in Google Antigravity | Live |
-| [llms.txt](llms.txt) | Maschinenlesbare Version für KI-Agenten | In Arbeit |
+| [llms.txt](llms.txt) | Maschinenlesbare Version für KI-Agenten | Live |
 | [CHANGELOG.md](CHANGELOG.md) | Geburtsurkunde — Chronik des Blackbooks | In Arbeit |
 
 ### Verbundene Repositories
