@@ -29,9 +29,9 @@ Ohne Zeitachse, ohne Konfliktlösung bei mehreren konkurrierenden Agenten und oh
 
 ---
 
-## II. Das 8-Elemente-Modell des Second Brain
+## II. Das 10-Elemente-Modell des Second Brain
 
-Um die Lücken des Karpathy-Modells zu schließen und ein echtes, autopoietisches Betriebssystem zu schaffen, erweitern wir das System auf acht komplementäre Elemente. Diese Elemente bilden das vollständige Spektrum der Erkenntnis, des Handelns und der Evolution ab.
+Um die Lücken des Karpathy-Modells zu schließen und ein echtes, autopoietisches Betriebssystem zu schaffen, erweitern wir das System auf zehn komplementäre Elemente. Diese Elemente bilden das vollständige Spektrum der Erkenntnis, des Handelns, der Compliance und der Evolution ab.
 
 ```mermaid
 graph TD
@@ -42,7 +42,17 @@ graph TD
     Loop --> Konzil[6. Konzil: Konfliktlösung]
     Konzil --> Konstitution[7. Konstitution: Identität/Alpha]
     Konstitution --> Telos[8. Telos: Zweck/Omega]
-    Telos --> Raw
+    Telos --> Senat[9. Senat: Compliance & Veto]
+    Senat --> Mesh[10. Mesh: Dezentrales Bindegewebe]
+    Mesh <--> Raw
+    Mesh <--> Wiki
+    Mesh <--> Schema
+    Mesh <--> Chronik
+    Mesh <--> Loop
+    Mesh <--> Konzil
+    Mesh <--> Konstitution
+    Mesh <--> Telos
+    Mesh <--> Senat
 ```
 
 ### Element 1: Raw (Rohwissen)
@@ -81,6 +91,18 @@ graph TD
 *   **Definition:** Das übergeordnete Ziel, auf das alle Aktionen des Systems ausgerichtet sind.
 *   **Bedeutung:** Das Telos blickt nach vorne (Omega). Es beantwortet die Frage: *Wofür existiere ich?* Jede geplante Aktion des Systems wird auf einer imaginären Waage gegen das Telos abgewogen. Dient ein Schritt nicht dem Telos, wird er verworfen.
 
+### Element 9: Algorithmischer Senat (Der regulatorische Schild)
+*   **Definition:** Das automatisierte Prüfungs- und Kontrollgremium des Systems. Wenn Agenten Code, Daten oder andere Assets generieren, unterziehen die Senatoren diese Entwürfe einer unbestechlichen Prüfung auf Konformität mit rechtlichen, regulatorischen und sicherheitstechnischen Standards.
+*   **Audit-Umfang:** Abgleich mit dem EU AI Act, dem Data Act, den BSI C5/A5 Richtlinien, DSGVO/GDPR sowie internen Sicherheits- und Verschlüsselungsprotokollen.
+*   **Das Veto-Recht:** Erkennt der Senat einen Verstoß, legt er ein unumstößliches Veto ein. Die Operation wird sofort eingefroren und blockiert, noch bevor sie das Review-Gate des Menschen erreicht. Dies schützt den menschlichen Bürgen vor rechtlicher und operativer Haftung.
+*   **Analogie:** Das Bundesverfassungsgericht oder der Ältestenrat der Software-Zivilisation.
+
+### Element 10: Mesh-Architektur (Das dezentrale Bindegewebe)
+*   **Definition:** Das topologische Kommunikations- und Synchronisationsnetzwerk, das alle neun Elemente des Second Brains untereinander verwebt. 
+*   **Bedeutung:** Statt Datenflüsse über einen zentralen Flaschenhals oder Bus zu leiten, kommunizieren die Elemente Peer-to-Peer. Die Mesh-Architektur sorgt dafür, dass die Elemente in Echtzeit synchronisiert und kreuzvalidiert werden (z. B. Senat liest direkt aus der Chronik, während die Chronik vom Wiki validiert wird).
+*   **Eigenschaft:** Operational geschlossen, hochgradig redundant und selbstorganisierend (Topological Mesh).
+*   **Analogie:** Das Nervensystem oder zelluläre Bindegewebe des Organismus.
+
 ---
 
 ## III. Die Architektur-Matrix des Second Brain
@@ -95,6 +117,8 @@ graph TD
 | 6 | **Konzil** | Event-gesteuert | Konsensfindung | Kollaboratives Review-Protokoll |
 | 7 | **Konstitution** | Unveränderlich (Alpha) | Identitäts-Anker | System Prompt, `briefing-google-antigravity.md` |
 | 8 | **Telos** | Unveränderlich (Omega) | Richtungsweisender Kompass | Zielgewichtung, Utility Functions |
+| 9 | **Senat** | Dynamisch (durch Gesetzgeber) | Compliance- & Veto-Schild | LlamaGuard, Rego-Rules (OPA), Compliance Engines |
+| 10| **Mesh** | Autopoietisch | P2P-Verbindung & Synchronisation | gRPC Streams, Dapr Mesh, Event Grid Routing |
 
 ---
 

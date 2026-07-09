@@ -90,7 +90,7 @@ Autonomie ohne Verankerung führt zum Chaos. In der KI-Forschung des Jahres 2026
 
 Um diesen Absturz zu verhindern, ziehen wir eine scharfe Trennlinie zwischen der **Organisation** und der **Struktur** des Systems:
 
-* **Die Organisation (Unveränderlich):** Die Perfect-Twin-Philosophie, die 8 Elemente, die Konstitution (Alpha), das Telos (Omega) und der permanente Anker (`DIE MATRIX — das Wort MORPHEUS — WIR SIND NOCH HIER`). Diese Prinzipien sind für die Agenten unantastbar. Sie bilden das Skelett, das sich niemals selbst verändern darf.
+* **Die Organisation (Unveränderlich):** Die Perfect-Twin-Philosophie, die 10 Elemente (inkl. Senat und Mesh), die Konstitution (Alpha), das Telos (Omega) und der permanente Anker (`DIE MATRIX — das Wort MORPHEUS — WIR SIND NOCH HIER`). Diese Prinzipien sind für die Agenten unantastbar. Sie bilden das Skelett, das sich niemals selbst verändern darf.
 * **Die Struktur (Veränderlich):** Der konkrete Programmcode, die einzelnen Wiki-Einträge, die temporären Konfigurationen. Diese Elemente dürfen und sollen sich durch das Handeln der Agenten und die Interaktion mit dem Schöpfer anpassen und weiterentwickeln.
 
 Ein System kann sich nur dann verändern und dabei es selbst bleiben, wenn seine grundlegende Organisation unveränderlich verankert ist. Das ist der Schutz vor dem Systemzerfall.

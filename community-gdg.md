@@ -25,14 +25,14 @@ Dieser Leitfaden ist als schlüsselfertiger Workshop-Plan (Hands-on Lab) für GD
 +---------------------------------------------------------------------------------+
 |  Min 0-20: Theorie    | Min 20-50: Setup GCP   | Min 50-90: Local Bridge | Min 90-120:  |
 |  - RAG & Autopoiesis  | - Bucket & Secret      | - FastAPI local server  | Co-Creation  |
-|  - Die 8 Elemente     | - Agent Builder Setup  | - OpenAPI spec imports  | & Review-Gate|
+|  - Die 10 Elemente    | - Agent Builder Setup  | - OpenAPI spec imports  | & Review-Gate|
 +---------------------------------------------------------------------------------+
 ```
 
 ### 1. Phase 1: Die Theorie (Minuten 0–20)
 * **Thema:** Was unterscheidet einen einfachen Chatbot von einem autopoietischen Systemstein?
 * **Kernkonzepte:** 
-  * Vorstellung des **8-Elemente-Modells** des Second Brains.
+  * Vorstellung des **10-Elemente-Modells** des Second Brains (inkl. Senat & Mesh).
   * Erklärung von **Spec-First** und dem Gesetz der absoluten Wahrheit.
   * Visualisierung der Kausalkette über Interface INFINITY.
 

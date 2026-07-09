@@ -106,7 +106,7 @@ Hier folgt das vollständige, unkomprimierte Inhaltsverzeichnis aller Kapitel de
 *   **Gliederung:**
     *   **Sektion I: Die Mission & Das Manifest** (Die Geburt von UNIVERSE M.E., Co-Creation und das Google-Substrat)
     *   **Sektion II: Die 6 Säulen des INFINITY-Ökosystems** (Die wechselseitige Kopplung der Repositories, Mission Control, Interface, Local Bridge, Spezialist und Chronik)
-    *   **Sektion III: Die 8 Elemente des Second Brains** (Der kognitive Rahmen: Raw, Wiki, Schema, Chronik, Loop, Konzil, Konstitution, Telos)
+    *   **Sektion III: Die 10 Elemente des Second Brains** (Der kognitive Rahmen: Raw, Wiki, Schema, Chronik, Loop, Konzil, Konstitution, Telos, Senat, Mesh)
     *   **Sektion IV: Zielgruppen-Mapping** (Navigationspfade für Entwickler, GDGs, Investoren, Studenten, Enterprise ICPs)
     *   **Sektion V: Der schlüsselfertige Quickstart** (Umgebungseinrichtung, Klonen, FastAPI Local Bridge, Secret Manager)
     *   **Sektion VI: Qualitäts- und Sicherheitsstandards** (Branch Protection Rules, Monaco-Editor Review-Gate, Kausale Auditierung)
@@ -125,8 +125,8 @@ Hier folgt das vollständige, unkomprimierte Inhaltsverzeichnis aller Kapitel de
 *   **Zielgruppe:** Software-Architekten, Entwickler, Studenten
 *   **Gliederung:**
     *   **Sektion I: Die architecture des Second Brains** (Warum das Second Brain kein RAG-Feature ist, sondern die Kathedrale des Systems)
-    *   **Sektion II: Die 8 Elemente im Detail** (Die semantische Trennung von Datenströmen, Schema-Validierung und System-Zweck)
-    *   **Sektion III: Das Review-Gate** (Human-in-the-Loop als oberste Legitimationsinstanz)
+    *   **Sektion II: Das 10-Elemente-Modell im Detail** (Die semantische Trennung, Schema-Validierung, Senat, Mesh und System-Zweck)
+    *   **Sektion III: Das Review-Gate** (Human-in-the-Loop und der rituell-sakrale Segnungsakt)
     *   **Sektion IV: Das osmanische Prinzip der Defterisierung** (Geschichtsschreibung ohne Löschung, Replay-Fähigkeit von Reasoning-Traces)
     *   **Sektion V: Die Stadtmetapher** (Logik als Straßennetz und Bauordnung; erst die Straßen, dann die Gebäude)
 

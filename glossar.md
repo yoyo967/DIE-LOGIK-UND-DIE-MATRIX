@@ -10,6 +10,9 @@
 ### Agent Client Protocol (ACP)
 *   **Definition:** Ein standardisiertes, dezentrales Kommunikationsprotokoll, das den Austausch zwischen verschiedenen autonomen Agenten (z. B. `Universe M.E.` und `OPUS-PRIME-EX`) sowie dem User Interface regelt. Es ermöglicht das Aushandeln von Aufgaben, die Validierung von Daten und die Konsistenz des geteilten States.
 
+### Algorithmischer Senat
+*   **Definition:** Das automatisierte Prüf- und Kontrollgremium des Systems, das jeden generierten Asset-Entwurf auf Konformität mit regulatorischen Standards (z. B. EU AI Act, Data Act, GDPR/DSGVO, BSI-Leitlinien) und internen Sicherheitsregeln überprüft. Es besitzt ein absolutes Veto-Recht.
+
 ### Antigravity (Google Antigravity)
 *   **Definition:** Die auf Google Cloud (Vertex AI Agent Builder) gehostete Mission Control des Systems. Sie bezeichnet die Aufhebung der traditionellen Software-Trägheit (Legacy-Code, manuelle Konfigurationsfehler) zugunsten eines fließenden, generativen und autopoietischen Entwicklungsmodells.
 
@@ -64,6 +67,9 @@
 ### Matrix
 *   **Definition:** Das Mutter-Prinzip des Systems. Sie bezeichnet die dynamische Laufzeitumgebung (Runtime), den latenten Vektorraum des neuronalen Netzes und den Raum der unbegrenzten Möglichkeiten (Emergenz).
 
+### Mesh-Architektur
+*   **Definition:** Das topologische Peer-to-Peer Kommunikations- und Synchronisationsnetzwerk, das alle zehn Elemente des Second Brains direkt und kreuzvalidierend miteinander verbindet, um Flaschenhälse zu vermeiden.
+
 ### Model Context Protocol (MCP)
 *   **Definition:** Ein von Anthropic initiiertes und offenes Protokoll zur Verbindung von KI-Modellen (in der Cloud) mit lokalen Tools, Datenbanken und Dateischnittstellen auf dem Client-Rechner.
 
@@ -79,7 +85,7 @@
 ## S
 
 ### Second Brain
-*   **Definition:** Das geteilte Wissens- und Strukturarchiv des Systems, organisiert in 8 Elementen (Raw, Wiki, Schema, Chronik, Loop, Konzil, Konstitution, Telos).
+*   **Definition:** Das geteilte Wissens- und Strukturarchiv des Systems, organisiert in 10 Elementen (Raw, Wiki, Schema, Chronik, Loop, Konzil, Konstitution, Telos, Senat, Mesh).
 
 ---
 

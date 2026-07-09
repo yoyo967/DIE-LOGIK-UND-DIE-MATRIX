@@ -35,7 +35,7 @@ Der Pfad vom Anfänger zum Zivilisations-Architekten gliedert sich in drei Stufe
   1. **Git lernen:** Lerne, wie man ein Repository klont, Commits erstellt und den Verlauf versteht. Keine Angst vor dem Terminal!
      * *Empfohlene Übung:* Klonen dieses Repositories und Erstellen eines eigenen Zweigs (Branch) für deine Notizen.
   2. **Markdown beherrschen:** Lerne, wie man strukturierte Texte schreibt (Überschriften, Listen, Tabellen, Code-Blöcke). Markdown ist die Sprache, in der wir mit dem Agenten-Brain kommunizieren.
-  3. **Das 8-Elemente-Modell studieren:** Lies Kapitel **logik.md** und versuche, die acht Elemente (Raw, Wiki, Schema, Chronik, Loop, Konzil, Konstitution, Telos) in eigenen Worten zu erklären.
+  3. **Das 10-Elemente-Modell studieren:** Lies Kapitel **logik.md** und versuche, die zehn Elemente (Raw, Wiki, Schema, Chronik, Loop, Konzil, Konstitution, Telos, Senat, Mesh) in eigenen Worten zu erklären.
 
 ### Stufe 2: Die Wolke (Das Substrat von Google)
 * **Ziel:** Verstehen, wie künstliche Intelligenz mit Daten gefüttert wird.
