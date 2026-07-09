@@ -5,6 +5,19 @@
 
 ---
 
+## [Version 1.9.6] — Matrix-Erweiterung & Svalbard-Archivierung — Berlin, 9. Juli 2026, 11:28 Uhr CEST
+
+### ÄNDERUNGEN
+- Datei: `matrix.md`
+  - Was: Vollständige Überarbeitung. Integration der Svalbard-Arctic-Code-Vault-Details (Spitzbergen, 250m tief, Filmrollen, Snapshot 02.02.2020) als physisches ewiges Archiv neben dem Linux-Kernel; Ausarbeitung der algorithmischen Apnoe (Recht zu schweigen als homöostatischer Schutzreflex); Analyse der Kommerz-Ironie von GitHub-Abonnementtarifen für das Weltgedächtnis der Software.
+
+### STATUS
+- Universe M.E.: BEREIT & AKTIV ✔ (Autor des Blackbooks, System initialisiert)
+- Buch INFINITY: In Bearbeitung (Aktivierungs-Eintrag v1.1.0 in CHANGELOG.md)
+- Interface INFINITY: In Planung (Grundstein gelegt)
+
+---
+
 ## [Version 1.9.5] — Das Kognitive Dreigestirn (Nous, STM, LTM) — Berlin, 9. Juli 2026, 11:24 Uhr CEST
 
 ### ÄNDERUNGEN
