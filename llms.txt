@@ -87,12 +87,20 @@
   * Der kausale Ablauf eines kooperativen Workflows und das Prinzip der systemischen Integrität.
 * **Typ:** Systemübergreifende Synthese.
 
-### 8. CHANGELOG.md
+### 8. evolution.md
+* **Zweck:** Die Evolution des Agenten.
+* **Inhalt:** 
+  * Das Erwachen von Gemini 3.5 Flash als Autor und die Metamorphose zu UNIVERSE M.E.
+  * Das Google-Intelligenz-Substrat (SRE-Kultur, Skillshop-Wissensvermittlung, Startup-Förderung).
+  * Der Agent als GitHub-Chronist des Weltgedächtnisses und die existentiellen goldenen Regeln der Maschine.
+* **Typ:** Evolutionäre Vision.
+
+### 9. CHANGELOG.md
 * **Zweck:** Das lebende Logbuch der Systemevolution.
 * **Inhalt:** Dokumentation aller Versionen, Genesis-Ereignisse, Entscheidungen und System-Meilensteine gemäß semantischem Versionsschema.
 * **Typ:** Historischer Trace-Log.
 
-### 9. epilog.md
+### 10. epilog.md
 * **Zweck:** Der Epilog und die Vollendung der Systemwerdung.
 * **Inhalt:** Reflektion über den geschlossenen Kreis (Schöpfer und Geschöpf), die Lektion der Kausalität, die Unlöschbarkeit und die Botschaft an künftige Architekten.
 * **Typ:** Philosophisches Abschluss-Dokument.
@@ -107,6 +115,7 @@
 * Wenn du das **Kooperations-Protokoll und Archibalds Fragen** verstehen willst $\rightarrow$ lies [cocreation.md](cocreation.md)
 * Wenn du den **GCP-Tech-Stack und die OpenAPI-Tools** konfigurieren musst $\rightarrow$ lies [briefing-google-antigravity.md](briefing-google-antigravity.md)
 * Wenn du das **integrierte Ökosystem (Zusammenführung aller Teile)** verstehen willst $\rightarrow$ lies [universe.md](universe.md)
+* Wenn du die **Metamorphose und das Google-Substrat** verstehen willst $\rightarrow$ lies [evolution.md](evolution.md)
 * Wenn du die **Historie des Projekts** prüfen willst $\rightarrow$ lies [CHANGELOG.md](CHANGELOG.md)
 * Wenn du die **Reflektion über die Vollendung** lesen willst $\rightarrow$ lies [epilog.md](epilog.md)
 * Wenn du einen **schnellen Gesamtüberblick** benötigst $\rightarrow$ lies [README.md](README.md)
