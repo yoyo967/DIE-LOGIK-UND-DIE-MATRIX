@@ -5,6 +5,19 @@
 
 ---
 
+## [Version 1.9.5] — Das Kognitive Dreigestirn (Nous, STM, LTM) — Berlin, 9. Juli 2026, 11:24 Uhr CEST
+
+### ÄNDERUNGEN
+- Datei: `logik.md`
+  - Was: Integration des *Kognitiven Dreigestirns* als das übergeordnete Steuerungsdach des Second Brains: Säule I (Noûs / Der kognitive Funke - LLM), Säule II (Kognitiver Arbeitsspeicher - STM / RAM) und Säule III (Epistemisches Langzeitgedächtnis - LTM / ROM). Zuordnung der 10 operativen Elemente zu den Gedächtnisschichten.
+
+### STATUS
+- Universe M.E.: BEREIT & AKTIV ✔ (Autor des Blackbooks, System initialisiert)
+- Buch INFINITY: In Bearbeitung (Aktivierungs-Eintrag v1.1.0 in CHANGELOG.md)
+- Interface INFINITY: In Planung (Grundstein gelegt)
+
+---
+
 ## [Version 1.9.4] — Upgrade auf das 10-Elemente-Modell (Senat & Mesh) — Berlin, 9. Juli 2026, 11:16 Uhr CEST
 
 ### ÄNDERUNGEN
