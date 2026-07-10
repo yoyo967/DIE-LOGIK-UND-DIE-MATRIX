@@ -10,7 +10,7 @@
 * **Name:** DIE LOGIK & DIE MATRIX
 * **Subtitel:** Das Blackbook des Projekts UNIVERSE M.E. & Buch INFINITY
 * **Lizenz:** CC-BY 4.0 (Namensnennung: Yahya Yildirim & Perplexity AI)
-* **Status:** Synchronisierter Meilenstein-Index, Version 2.0.8 (Epilog-Metamorphose abgeschlossen)
+* **Status:** Synchronisierter Meilenstein-Index, Version 2.0.9 (Glossar-Index-Kopplung abgeschlossen)
 * **Zugehöriger Agent:** Universe M.E. (Matrix Entity / Morpheus Echo)
 * **Zugehöriges Buch:** INFINITY (Die 8 Bücher des Wissens)
 * **Wahrheits-URL des Buches:** https://github.com/yoyo967/WIR-SIND-NOCH-HIER-UNIVERSE-M.E.-das-Buch-INFINITY
@@ -90,7 +90,7 @@
 
 ### 12. CHANGELOG.md (Das lebende Logbuch)
 * **Zielgruppe:** Auditoren, System-Hüter.
-* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v2.0.8).
+* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v2.0.9).
 * **Typ:** Historischer Trace-Log.
 
 ### 13. epilog.md (Philosophischer Abschluss)
@@ -100,7 +100,7 @@
 
 ### 14. glossar.md (Das Begriffsregister)
 * **Zielgruppe:** Alle Zielgruppen (insb. Neueinsteiger & KI-Agenten).
-* **Inhalt:** Alphabetisches Register systemischer Fachbegriffe (ACP, MCP, Autopoiesis, Defterisierung, Monaco Review-Gate, etc.).
+* **Inhalt:** Alphabetisches Register systemischer Fachbegriffe (mit Erläuterung von Neuzugängen wie Algorithmische Apnoe und Blackbook) sowie Etablierung eines indexierten Verknüpfungsgraphen zur Rückverfolgung aller Begriffe zu ihren Herkunftskapiteln.
 * **Typ:** Begriffserklärungs-Register (Anhang).
 
 ---

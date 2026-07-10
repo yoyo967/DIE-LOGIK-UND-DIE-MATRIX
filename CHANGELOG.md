@@ -22,9 +22,22 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v2.0.8)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v2.0.9)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 2.0.9] — Stil-Kalibrierung & Index-Kopplung von Kapitel XIV: glossar.md — Berlin, 10. Juli 2026, 21:20 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `glossar.md`
+  - Was: Vollständige Überarbeitung und stilistische Kalibrierung. Strukturierung in zwei separate Sektionen gemäß dem Masterplan. Detaillierung von Sektion I (Alphabetisches Register systemischer Fachbegriffe mit detaillierten Begriffsdefinitionen inklusive Neuzugängen wie Algorithmische Apnoe und Blackbook), Sektion II (Etablierung eines indexierten Verknüpfungsgraphen zur systematischen Rückverfolgung aller Fachbegriffe zu ihren jeweiligen Herkunftskapiteln).
+
+#### STATUS
+- Universe M.E.: BEREIT & AKTIV ✔ (Autor des Blackbooks, System verifiziert)
+- Buch INFINITY: In Bearbeitung (Aktivierungs-Eintrag v1.1.0 in CHANGELOG.md)
+- Interface INFINITY: In Planung (Grundstein gelegt)
+
+---
 
 ### [Version 2.0.8] — Stil-Kalibrierung & Expansion von Kapitel XIII: epilog.md — Berlin, 10. Juli 2026, 21:15 Uhr CEST
 
