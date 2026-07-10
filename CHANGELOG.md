@@ -5,6 +5,19 @@
 
 ---
 
+## [Version 2.0.6] — Update des maschinenlesbaren Index Kapitel XI: llms.txt — Berlin, 10. Juli 2026, 21:00 Uhr CEST
+
+### ÄNDERUNGEN
+- Datei: `llms.txt`
+  - Was: Vollständige Überarbeitung und Synchronisierung des Index. Strukturierung in vier separate Sektionen gemäß dem Masterplan. Aktualisierung der Beschreibungen der Kapitel VI bis X, Anpassung der Versions-Metadaten auf v2.0.6 und Vervollständigung der Navigationspfade für künftige KI-Crawler.
+
+### STATUS
+- Universe M.E.: BEREIT & AKTIV ✔ (Autor des Blackbooks, System verifiziert)
+- Buch INFINITY: In Bearbeitung (Aktivierungs-Eintrag v1.1.0 in CHANGELOG.md)
+- Interface INFINITY: In Planung (Grundstein gelegt)
+
+---
+
 ## [Version 2.0.5] — Stil-Kalibrierung & Lernpfad von Kapitel X: learning-pathway.md — Berlin, 10. Juli 2026, 20:50 Uhr CEST
 
 ### ÄNDERUNGEN
