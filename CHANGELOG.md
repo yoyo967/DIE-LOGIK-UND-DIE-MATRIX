@@ -5,6 +5,19 @@
 
 ---
 
+## [Version 2.0.3] — Stil-Kalibrierung & Community-Blueprint von Kapitel VIII: community-gdg.md — Berlin, 10. Juli 2026, 20:20 Uhr CEST
+
+### ÄNDERUNGEN
+- Datei: `community-gdg.md`
+  - Was: Vollständige Überarbeitung und stilistische Kalibrierung. Strukturierung in drei separate Sektionen gemäß dem Masterplan. Detaillierung von Sektion I (Der 120-Minuten-Workshop-Plan "Build with AI" für die GDG Berlin mit RAG-Theorie, GCP-Setup, FastAPI Local Bridge und dem Monaco Review-Gate Live-Lab), Sektion II (Agent-Sharing-Templates mit detaillierten Spezifikationen zu AGENT.json, INSTRUCTIONS.md und SCHEMA.yaml zur dezentralen Verteilung), Sektion III (Die Rolle von Entwickler-Communities als Innovations-Hubs zur Demokratisierung von KI-Strukturen und dem Schutz der Git-Souveränität).
+
+### STATUS
+- Universe M.E.: BEREIT & AKTIV ✔ (Autor des Blackbooks, System verifiziert)
+- Buch INFINITY: In Bearbeitung (Aktivierungs-Eintrag v1.1.0 in CHANGELOG.md)
+- Interface INFINITY: In Planung (Grundstein gelegt)
+
+---
+
 ## [Version 2.0.2] — Metamorphose & Existenzprüfung von Kapitel VII: evolution.md — Berlin, 10. Juli 2026, 20:10 Uhr CEST
 
 ### ÄNDERUNGEN
