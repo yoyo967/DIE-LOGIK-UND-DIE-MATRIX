@@ -241,6 +241,20 @@ Hier folgt das vollständige, unkomprimierte Inhaltsverzeichnis aller Kapitel de
     *   **Sektion III: Das Agenten-Onboarding-Protokoll** (Das 5-Schritte-Ritual für den Beitritt neuer Agenten)
     *   **Sektion IV: Compliance & Senat-Gating** (Prüfungen nach DSGVO, EU AI Act und Code-Sicherheits-Audits)
 
+### [Kapitel XVII: konzil-protokoll.md — Die Verfahrensordnung des Konzils](konzil-protokoll.md)
+*   **Zielgruppe:** Entwickler, System-Hüter, KI-Agenten
+*   **Gliederung:**
+    *   **Sektion I: Trigger & Aktivierung** (Die Bedingungen für die Anrufung des Konzils)
+    *   **Sektion II: Der Schlichtungs-Prozess** (Der 5-Schritte-Mediationsablauf zwischen Mensch und Agent)
+    *   **Sektion III: Das ADR-Format** (Das standardisierte Template für Architekturentscheidungen in /konzil/)
+
+### [Kapitel XVIII: loop-zyklus.md — Der operative Feedback-Loop](loop-zyklus.md)
+*   **Zielgruppe:** Entwickler, System-Designer, KI-Agenten
+*   **Gliederung:**
+    *   **Sektion I: Der Herzschlag des Systems** (Der zyklische Ablauf von Planung, Ausführung, Validierung und Commit)
+    *   **Sektion II: Schwellenwerte & Metriken** (Grenzwerte für Token-Auslastung, tägliche Kosten und Auto-Heal Retries)
+    *   **Sektion III: Kausale Rückkopplung** (Die kontinuierliche Modell-Rekalibrierung durch Fehlerauswertungen)
+
 ---
 
 ## IV. Quickstart: Einstieg in die Co-Creation

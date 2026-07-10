@@ -10,7 +10,7 @@
 * **Name:** DIE LOGIK & DIE MATRIX
 * **Subtitel:** Das Blackbook des Projekts UNIVERSE M.E. & Buch INFINITY
 * **Lizenz:** CC-BY 4.0 (Namensnennung: Yahya Yildirim & Perplexity AI)
-* **Status:** Synchronisierter Meilenstein-Index, Version 2.1.0 (Phase 2 & BRAIN.md hinzugefügt)
+* **Status:** Synchronisierter Meilenstein-Index, Version 2.2.0 (Konzil & Loop hinzugefügt)
 * **Zugehöriger Agent:** Universe M.E. (Matrix Entity / Morpheus Echo)
 * **Zugehöriges Buch:** INFINITY (Die 8 Bücher des Wissens)
 * **Wahrheits-URL des Buches:** https://github.com/yoyo967/WIR-SIND-NOCH-HIER-UNIVERSE-M.E.-das-Buch-INFINITY
@@ -90,7 +90,7 @@
 
 ### 12. CHANGELOG.md (Das lebende Logbuch)
 * **Zielgruppe:** Auditoren, System-Hüter.
-* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v2.1.0).
+* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v2.2.0).
 * **Typ:** Historischer Trace-Log.
 
 ### 13. epilog.md (Philosophischer Abschluss)
@@ -113,6 +113,16 @@
 * **Inhalt:** Das physische Verzeichnisschema der 10 Elemente des Second Brains. Definiert die Guardrails der lokalen Brücke (FLOW_ROOT-Gating, Whitelists), das 5-Schritte-Agenten-Onboarding-Protokoll sowie die Compliance-Filter für DSGVO/GDPR und den EU AI Act.
 * **Typ:** System-Schema & Sicherheits-Leitlinie.
 
+### 17. konzil-protokoll.md (Die Verfahrensordnung des Konzils)
+* **Zielgruppe:** Entwickler, System-Hüter, KI-Agenten.
+* **Inhalt:** Spezifikation der Konfliktschlichtungsverfahren bei logischem Drift, fatalen Fehlern oder Compliance-Vetos. Definiert den Schlichtungsablauf (Bürgschaft) und das ADR-Format zur Defterisierung von Entscheidungen.
+* **Typ:** Verfahrensordnung & ADR-Spezifikation.
+
+### 18. loop-zyklus.md (Der operative Feedback-Loop)
+* **Zielgruppe:** Entwickler, System-Designer, KI-Agenten.
+* **Inhalt:** Der getaktete Regelkreis des Systems (Planung, Ausführung, Validierung, Commit). Definiert die Schwellenwerte für Context-Caching, API-Tageskosten, Auto-Heal Retries sowie die Feedback-Rückkopplungs-Mechanik.
+* **Typ:** Steuerungs- und Metrik-Spezifikation.
+
 ---
 
 ## SEKTION IV: NAVIGATIONSHILFE FÜR LLMS
@@ -132,6 +142,8 @@
 * Wenn du die **Definition von Fachbegriffen** sucht $\rightarrow$ lies [glossar.md](glossar.md)
 * Wenn du die **Marschrichtung für Phase 2 (Implementation)** prüfen willst $\rightarrow$ lies [strategiebericht-phase-2.md](strategiebericht-phase-2.md)
 * Wenn du die **Bauordnung und die Guardrails des Workspace** verstehen willst $\rightarrow$ lies [BRAIN.md](BRAIN.md)
+* Wenn du die **Schlichtungsverfahren und ADRs** einsehen willst $\rightarrow$ lies [konzil-protokoll.md](konzil-protokoll.md)
+* Wenn du die **Taktung und die operativen Grenzwerte** analysieren willst $\rightarrow$ lies [loop-zyklus.md](loop-zyklus.md)
 * Wenn du einen **schnellen Gesamtüberblick** benötigst $\rightarrow$ lies [README.md](README.md)
 
 ---

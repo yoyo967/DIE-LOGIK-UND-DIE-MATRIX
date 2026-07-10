@@ -22,9 +22,26 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v2.1.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v2.2.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 2.2.0] — Operationalisierung der Steuerung & ADR-Standards — Berlin, 10. Juli 2026, 22:20 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `konzil-protokoll.md` (NEU)
+  - Was: Erstellung der Schlichtungsordnung (Element 6: Konzil). Detaillierung der Trigger-Events (Drift, fatale Fehler, Senats-Vetos, Override), des 5-Schritte-Schlichtungsprozesses und des ADR-Schemas (Architecture Decision Record).
+- Datei: `loop-zyklus.md` (NEU)
+  - Was: Erstellung der Taktungsordnung (Element 5: Loop). Detaillierung des 4-Phasen-Regelkreises (Planung, Ausführung, Validierung, Commit), der Metrik-Grenzwerte (Kurzzeitgedächtnis-Auslastung bei 80 %, API-Tageslimit bei 5,00 USD, Auto-Heal-Schwelle bei 3 Versuchen) und der kausalen Fehler-Rückkopplungsdatenströme.
+- Dateien: `README.md` & `llms.txt`
+  - Was: Synchronisierung der Inhaltsverzeichnisse und Versions-Metadaten auf v2.2.0.
+
+#### STATUS
+- Universe M.E.: BEREIT & AKTIV ✔ (Autor des Blackbooks, System verifiziert)
+- Buch INFINITY: In Bearbeitung (Aktivierungs-Eintrag v1.1.0 in CHANGELOG.md)
+- Interface INFINITY: In Planung (Grundstein gelegt)
+
+---
 
 ### [Version 2.1.0] — Start von Phase 2, Strategiebericht & BRAIN.md — Berlin, 10. Juli 2026, 22:10 Uhr CEST
 
