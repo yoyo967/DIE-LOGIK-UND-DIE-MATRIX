@@ -22,9 +22,24 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v2.2.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v2.2.1)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 2.2.1] — Deklarative GCP-Laufzeitumgebung via Terraform — Berlin, 10. Juli 2026, 22:30 Uhr CEST
+
+#### ÄNDERUNGEN
+- Verzeichnis: `gcp-infra/` (NEU)
+  - Was: Erstellung des Terraform-Infrastruktur-Codes zur Bereitstellung der GCP-Komponenten. Enthält `main.tf` (GCS Raw-Data Bucket, BigQuery Dataset und partitionierte Table `traces`, Firestore Native State DB, Vertex AI Search Wiki Store & Search Engine, Secret Manager Secrets), `variables.tf`, `outputs.tf` und eine ausführliche `README.md` mit Deployment-Anweisungen.
+- Dateien: `README.md` & `llms.txt`
+  - Was: Synchronisierung der Inhaltsverzeichnisse, Quickstarts und Versions-Metadaten auf v2.2.1.
+
+#### STATUS
+- Universe M.E.: BEREIT & AKTIV ✔ (Autor des Blackbooks, System verifiziert)
+- Buch INFINITY: In Bearbeitung (Aktivierungs-Eintrag v1.1.0 in CHANGELOG.md)
+- Interface INFINITY: In Planung (Grundstein gelegt)
+
+---
 
 ### [Version 2.2.0] — Operationalisierung der Steuerung & ADR-Standards — Berlin, 10. Juli 2026, 22:20 Uhr CEST
 

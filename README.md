@@ -287,17 +287,21 @@ Der Agent benötigt Zugriff auf die Hände vor Ort (`opus-flow`).
    uvicorn apps.local-bridge.main:app --host 127.0.0.1 --port 8000
    ```
 
-### 3. Autorisierung des Cloud-Agenten via CLI
-1. Logge dich in dein Google Cloud Account ein und verknüpfe das Projekt:
+### 3. Bereitstellung der Cloud-Infrastruktur mit Terraform
+Die GCP-Ressourcen (GCS-Bucket, BigQuery, Firestore und Secret Manager) werden deklarativ über Terraform bereitgestellt:
+1. Navigiere in das Infrastruktur-Verzeichnis:
    ```bash
-   gcloud auth login
-   gcloud config set project universe-me-infinity
+   cd gcp-infra
    ```
-2. Lade das Secret für die Git-Schnittstelle in den Secret Manager:
+2. Initialisiere und starte den Deployment-Prozess:
+   ```bash
+   terraform init
+   terraform apply -var="project_id=universe-me-infinity"
+   ```
+3. Lade das Secret für die GitHub-Schnittstelle manuell in das erzeugte Secret-Objekt:
    ```bash
    echo -n "dein-github-access-token" | \
-   gcloud secrets create github-access-token --data-file=- \
-     --replication-policy="automatic"
+     gcloud secrets versions add github-access-token --data-file=-
    ```
 
 ---

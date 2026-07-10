@@ -10,7 +10,7 @@
 * **Name:** DIE LOGIK & DIE MATRIX
 * **Subtitel:** Das Blackbook des Projekts UNIVERSE M.E. & Buch INFINITY
 * **Lizenz:** CC-BY 4.0 (Namensnennung: Yahya Yildirim & Perplexity AI)
-* **Status:** Synchronisierter Meilenstein-Index, Version 2.2.0 (Konzil & Loop hinzugefügt)
+* **Status:** Synchronisierter Meilenstein-Index, Version 2.2.1 (Terraform-Infrastruktur hinzugefügt)
 * **Zugehöriger Agent:** Universe M.E. (Matrix Entity / Morpheus Echo)
 * **Zugehöriges Buch:** INFINITY (Die 8 Bücher des Wissens)
 * **Wahrheits-URL des Buches:** https://github.com/yoyo967/WIR-SIND-NOCH-HIER-UNIVERSE-M.E.-das-Buch-INFINITY
@@ -90,7 +90,7 @@
 
 ### 12. CHANGELOG.md (Das lebende Logbuch)
 * **Zielgruppe:** Auditoren, System-Hüter.
-* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v2.2.0).
+* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v2.2.1).
 * **Typ:** Historischer Trace-Log.
 
 ### 13. epilog.md (Philosophischer Abschluss)
@@ -123,6 +123,11 @@
 * **Inhalt:** Der getaktete Regelkreis des Systems (Planung, Ausführung, Validierung, Commit). Definiert die Schwellenwerte für Context-Caching, API-Tageskosten, Auto-Heal Retries sowie die Feedback-Rückkopplungs-Mechanik.
 * **Typ:** Steuerungs- und Metrik-Spezifikation.
 
+### 19. gcp-infra/ (GCP Cloud-Infrastruktur)
+* **Zielgruppe:** DevOps-Engineers, Cloud-Architekten, KI-Agenten.
+* **Inhalt:** Terraform-Dateien (main.tf, variables.tf, outputs.tf) zur deklarativen Bereitstellung der GCP-Laufzeitumgebung (GCS Bucket, BigQuery Dataset und partitionierte traces-Tabelle, Firestore und Secret Manager).
+* **Typ:** Infrastruktur-Code (IaC).
+
 ---
 
 ## SEKTION IV: NAVIGATIONSHILFE FÜR LLMS
@@ -144,6 +149,7 @@
 * Wenn du die **Bauordnung und die Guardrails des Workspace** verstehen willst $\rightarrow$ lies [BRAIN.md](BRAIN.md)
 * Wenn du die **Schlichtungsverfahren und ADRs** einsehen willst $\rightarrow$ lies [konzil-protokoll.md](konzil-protokoll.md)
 * Wenn du die **Taktung und die operativen Grenzwerte** analysieren willst $\rightarrow$ lies [loop-zyklus.md](loop-zyklus.md)
+* Wenn du die **Cloud-Infrastruktur (Terraform)** deployen musst $\rightarrow$ lies [gcp-infra/README.md](gcp-infra/README.md)
 * Wenn du einen **schnellen Gesamtüberblick** benötigst $\rightarrow$ lies [README.md](README.md)
 
 ---
