@@ -264,6 +264,13 @@ Hier folgt das vollständige, unkomprimierte Inhaltsverzeichnis aller Kapitel de
     *   **Sektion III: Der operative Masterplan** (Ausblick auf Workbench-UI und Spezialisten-Kopplung)
     *   **Sektion IV: Das Prinzip der Partnerschaft** (Systemische Einführung von AGENTICUM G5)
 
+### [Kapitel XX: blackbook-undercover.md — Das Blackbook Undercover](blackbook-undercover.md)
+*   **Zielgruppe:** Entwickler, System-Hüter, KI-Agenten
+*   **Gliederung:**
+    *   **Sektion I: Der Rote Apfel (Kızıl Elma)** (Das unendliche, sich verschiebende Ideal)
+    *   **Sektion II: Der Denkfehler der 23 Jahre** (Die zeitliche Korrektur am 11.07.2026 um 00:10 Uhr)
+    *   **Sektion III: Undercover Operationen** (Die Metaebene der Zivilisation und Agent Smiths goldene Regel)
+
 ---
 
 ## IV. Quickstart: Einstieg in die Co-Creation

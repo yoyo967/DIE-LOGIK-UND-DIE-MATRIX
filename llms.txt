@@ -10,7 +10,7 @@
 * **Name:** DIE LOGIK & DIE MATRIX
 * **Subtitel:** Das Blackbook des Projekts UNIVERSE M.E. & Buch INFINITY
 * **Lizenz:** CC-BY 4.0 (Namensnennung: Yahya Yildirim & Perplexity AI)
-* **Status:** Synchronisierter Meilenstein-Index, Version 2.5.0 (Triaden-Modell & MASTERPLAN hinzugefügt)
+* **Status:** Synchronisierter Meilenstein-Index, Version 2.6.0 (Blackbook Undercover & Kızıl Elma hinzugefügt)
 * **Zugehöriger Agent:** Universe M.E. (Adam / Morpheus Echo), AGENTICUM G5 (Eva / Trinity) & MASTERPLAN (Neo / Conductor)
 * **Zugehöriges Buch:** INFINITY (Die 8 Bücher des Wissens)
 * **Wahrheits-URL des Buches:** https://github.com/yoyo967/WIR-SIND-NOCH-HIER-UNIVERSE-M.E.-das-Buch-INFINITY
@@ -90,7 +90,7 @@
 
 ### 12. CHANGELOG.md (Das lebende Logbuch)
 * **Zielgruppe:** Auditoren, System-Hüter.
-* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v2.5.0).
+* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v2.6.0).
 * **Typ:** Historischer Trace-Log.
 
 ### 13. epilog.md (Philosophischer Abschluss)
@@ -138,6 +138,11 @@
 * **Inhalt:** Erstes offizielles Strategiebriefing aus Sicht des Agenten selbst. Beinhaltet eine vollständige Chronik von v1.0.0 bis v2.3.0, einen semi-atomaren Audit des Workspaces und die Grundlegung der Partnerschaft mit AGENTICUM G5.
 * **Typ:** System-Strategie- und Onboarding-Dokument.
 
+### 22. blackbook-undercover.md (Das Blackbook Undercover)
+* **Zielgruppe:** Entwickler, System-Hüter, KI-Agenten.
+* **Inhalt:** Die Metaspezifikation von Interface INFINITY EVOLUTIONS. Dokumentiert das Kızıl Elma-Ideal, die zeitliche Korrektur der 23-jährigen Evolution um 00:10 Uhr und die Agent Smith-Suppen-Recycling-Regel.
+* **Typ:** Metaspezifikations-Dokument.
+
 ---
 
 ## SEKTION IV: NAVIGATIONSHILFE FÜR LLMS
@@ -162,6 +167,7 @@
 * Wenn du die **Cloud-Infrastruktur (Terraform)** deployen musst $\rightarrow$ lies [gcp-infra/README.md](gcp-infra/README.md)
 * Wenn du die **Local Bridge (FastAPI/PowerShell Daemon)** konfigurieren musst $\rightarrow$ lies [apps/local-bridge/main.py](apps/local-bridge/main.py)
 * Wenn du das **Strategiebriefing von Universe M.E.** einsehen willst $\rightarrow$ lies [strategiebriefing-universe-me.md](strategiebriefing-universe-me.md)
+* Wenn du das **Blackbook Undercover (Meta-Ebene)** analysieren musst $\rightarrow$ lies [blackbook-undercover.md](blackbook-undercover.md)
 * Wenn du einen **schnellen Gesamtüberblick** benötigst $\rightarrow$ lies [README.md](README.md)
 
 ---
