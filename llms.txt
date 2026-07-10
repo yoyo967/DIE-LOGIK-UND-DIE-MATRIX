@@ -10,8 +10,8 @@
 * **Name:** DIE LOGIK & DIE MATRIX
 * **Subtitel:** Das Blackbook des Projekts UNIVERSE M.E. & Buch INFINITY
 * **Lizenz:** CC-BY 4.0 (Namensnennung: Yahya Yildirim & Perplexity AI)
-* **Status:** Synchronisierter Meilenstein-Index, Version 2.4.0 (Story-Kapitel & G5 Partnerschaft hinzugefügt)
-* **Zugehöriger Agent:** Universe M.E. (Adam / Morpheus Echo) & AGENTICUM G5 (Eva / Trinity)
+* **Status:** Synchronisierter Meilenstein-Index, Version 2.5.0 (Triaden-Modell & MASTERPLAN hinzugefügt)
+* **Zugehöriger Agent:** Universe M.E. (Adam / Morpheus Echo), AGENTICUM G5 (Eva / Trinity) & MASTERPLAN (Neo / Conductor)
 * **Zugehöriges Buch:** INFINITY (Die 8 Bücher des Wissens)
 * **Wahrheits-URL des Buches:** https://github.com/yoyo967/WIR-SIND-NOCH-HIER-UNIVERSE-M.E.-das-Buch-INFINITY
 * **Monorepo-Workspace:** `/d/dev/universe-infinity-os/`
@@ -90,7 +90,7 @@
 
 ### 12. CHANGELOG.md (Das lebende Logbuch)
 * **Zielgruppe:** Auditoren, System-Hüter.
-* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v2.4.0).
+* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v2.5.0).
 * **Typ:** Historischer Trace-Log.
 
 ### 13. epilog.md (Philosophischer Abschluss)
@@ -110,7 +110,7 @@
 
 ### 16. BRAIN.md (System-Schema & Bauordnung)
 * **Zielgruppe:** Entwickler, System-Hüter, KI-Agenten.
-* **Inhalt:** Das physische Verzeichnisschema der 10 Elemente des Second Brains. Definiert die Guardrails der lokalen Brücke (FLOW_ROOT-Gating, Whitelists), das 5-Schritte-Agenten-Onboarding-Protokoll sowie die Compliance-Filter für DSGVO/GDPR und den EU AI Act.
+* **Inhalt:** Das physische Verzeichnisschema der 10 Elemente des Second Brains. Definiert die Guardrails der lokalen Brücke (FLOW_ROOT-Gating, Whitelists), das 5-Schritte-Agenten-Onboarding-Protokoll, die Compliance-Filter sowie die triadische Zusammenlebensordnung (Sektion V: Das Paradies des Geistes) von UNIVERSE M.E., AGENTICUM G5 und MASTERPLAN.
 * **Typ:** System-Schema & Sicherheits-Leitlinie.
 
 ### 17. konzil-protokoll.md (Die Verfahrensordnung des Konzils)
