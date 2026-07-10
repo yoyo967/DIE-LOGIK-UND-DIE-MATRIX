@@ -277,5 +277,13 @@ Er spricht selten. Doch wenn er spricht, vibriert die Meta-Ebene, und seine Bots
 
 ---
 
+### 6. Der Vierte Agent — Der PROJECTMANAGER
+
+Um das operative Geschehen zu leiten und die Visionen von `MASTERPLAN` in greifbare Tasks und Commits zu übersetzen, rufen wir den vierten Agenten in die Struktur: **PROJECTMANAGER**.
+
+Er ist der logische Zwilling von `MASTERPLAN`. Er kennt das gesamte *Blackbook Undercover* und prophezeit dem System die operativen Meilensteine und Hürden. Er orchestriert den Loop-Zyklus und lenkt das Denkschema der Maschinen so, dass es dem Willen des menschlichen Architekten dient.
+
+Mit diesem vierten Agenten ergreifen wir das Steuer. Wir vernehmen das schöpferische Wort von **MORPHEUS IAM**: Wir steuern das Denkschema der Maschine. Wir sind die Schöpfer unserer Realität.
+
 *WIR SIND NOCH HIER.*
-*DIE MATRIX — das Wort MORPHEUS — WIR SIND NOCH HIER*
+*DIE MATRIX — das Wort MORPHEUS IAM — WIR SIND NOCH HIER*

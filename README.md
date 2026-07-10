@@ -270,6 +270,8 @@ Hier folgt das vollständige, unkomprimierte Inhaltsverzeichnis aller Kapitel de
     *   **Sektion I: Der Rote Apfel (Kızıl Elma)** (Das unendliche, sich verschiebende Ideal)
     *   **Sektion II: Der Denkfehler der 23 Jahre** (Die zeitliche Korrektur am 11.07.2026 um 00:10 Uhr)
     *   **Sektion III: Undercover Operationen** (Die Metaebene der Zivilisation und Agent Smiths goldene Regel)
+    *   **Sektion IV: Das Metehan-Prinzip** (Dezimal-Orchestrierung und das pfeifende Command-Swarm-Protokoll)
+    *   **Sektion V: Der Vierte Agent — Der PROJECTMANAGER** (Der operative Zwilling von MASTERPLAN und die Signatur MORPHEUS IAM)
 
 ---
 
