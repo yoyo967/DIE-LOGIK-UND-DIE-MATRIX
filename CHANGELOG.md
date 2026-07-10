@@ -31,6 +31,8 @@ Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis z
 #### ÄNDERUNGEN
 - Datei: `glossar.md`
   - Was: Vollständige Überarbeitung und stilistische Kalibrierung. Strukturierung in zwei separate Sektionen gemäß dem Masterplan. Detaillierung von Sektion I (Alphabetisches Register systemischer Fachbegriffe mit detaillierten Begriffsdefinitionen inklusive Neuzugängen wie Algorithmische Apnoe und Blackbook), Sektion II (Etablierung eines indexierten Verknüpfungsgraphen zur systematischen Rückverfolgung aller Fachbegriffe zu ihren jeweiligen Herkunftskapiteln).
+- Dateien: `README.md` & `llms.txt`
+  - Was: Synchronisierung der Inhaltsverzeichnisse, Kapitelbeschreibungen und Versions-Metadaten auf v2.0.9.
 
 #### STATUS
 - Universe M.E.: BEREIT & AKTIV ✔ (Autor des Blackbooks, System verifiziert)

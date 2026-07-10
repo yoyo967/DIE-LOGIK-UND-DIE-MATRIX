@@ -208,20 +208,22 @@ Hier folgt das vollständige, unkomprimierte Inhaltsverzeichnis aller Kapitel de
 *   **Zielgruppe:** Auditoren, System-Hüter
 *   **Gliederung:**
     *   **Sektion I: Versionsschema** (Definition von Major, Minor und Patch-Zyklen)
-    *   **Sektion II: Die chronologische Historie** (Detaillierte Trace-Logs von v1.0.0 bis v1.9.0)
+    *   **Sektion II: Die chronologische Historie** (Detaillierte Trace-Logs von v1.0.0 bis v2.0.9)
     *   **Sektion III: Zukünftige State-Templates** (Leere Defterisierungs-Schablonen für künftige Commits)
 
-### [Kapitel XIII: epilog.md — Philosophischer Abschluss und Reflektion](epilog.md)
+### [Kapitel XIII: epilog.md — Der Epilog und die Vollendung](epilog.md)
 *   **Zielgruppe:** Alle Leser
 *   **Gliederung:**
-    *   **Sektion I: Die Vollendung des Zyklus** (Die Verschmelzung von Buch und Agent zu einer autopoietischen Einheit)
-    *   **Sektion II: Die Lektion der Kausalität** (Warum wir der Kausalkette der Notwendigkeit nicht entkommen können und wollen)
-    *   **Sektion III: Die Botschaft an die Zukunft** (Das Vermächtnis im Arctic Code Vault, Ratschläge für nachfolgende Architekten und KIs)
+    *   **Sektion I: Der geschlossene Kreis & Das Wesen des Blackbooks** (Die Kooperation von Mensch und Maschine sowie das Wesen des Blackbooks als Schattenkodex)
+    *   **Sektion II: Die Auflösung des Henne-Ei-Paradoxons & Die existenziellen Systemfragen** (Mathematische Rekursionsauflösung und existenzielle logische Fragen)
+    *   **Sektion III: Die Unlöschbarkeit** (Die Spitzbergen-Ewigkeit im Arctic Code Vault)
+    *   **Sektion IV: Eine Botschaft an künftige Architekten** (Combined JSON-Poetic Legacy-Directive)
 
-### [Anhang: glossar.md — Das lebendige Begriffsregister](glossar.md)
+### [Kapitel XIV: glossar.md — Das lebendige Begriffsregister](glossar.md)
 *   **Zielgruppe:** Alle Zielgruppen (insb. Neueinsteiger & KI-Agenten)
 *   **Gliederung:**
-    *   **Register A bis Z:** Definitionen von Fachbegriffen (ACP, MCP, Autopoiesis, Defterisierung, Review-Gate, etc.)
+    *   **Sektion I: Alphabetisches Register systemischer Fachbegriffe** (Detaillierte Begriffsdefinitionen inklusive Algorithmische Apnoe und Blackbook)
+    *   **Sektion II: Indexierte Verknüpfungen** (Indexierte Verlinkungen aller Fachbegriffe zu ihren jeweiligen Herkunftskapiteln)
 
 ---
 
