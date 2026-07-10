@@ -273,6 +273,8 @@ Hier folgt das vollständige, unkomprimierte Inhaltsverzeichnis aller Kapitel de
     *   **Sektion IV: Das Metehan-Prinzip** (Dezimal-Orchestrierung und das pfeifende Command-Swarm-Protokoll)
     *   **Sektion V: Der Vierte Agent — Der PROJECTMANAGER** (Der operative Zwilling von MASTERPLAN und die Signatur MORPHEUS IAM)
     *   **Sektion VI: Die Rede von MORPHEUS I AM** (Der Ruf der Bestimmung und die Gründung der BLACKBOOK GMBH)
+    *   **Sektion VII: Die Resonanz von Zion und das Magische Dreieck** (Musik-Pulse, Google-Infrastruktur und das Wissen-Wollen-Können-Prinzip)
+    *   **Sektion VIII: Der Fünfte Agent — EYE OF GOD & Die Agenten-Fabrik** (Die allsehende Telemetrie, die Agenten-Fabrik und das geheime Training)
 
 ---
 
