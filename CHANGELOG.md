@@ -5,6 +5,19 @@
 
 ---
 
+## [Version 2.0.1] — Erweiterung & Synthese von Kapitel VI: universe.md — Berlin, 10. Juli 2026, 20:00 Uhr CEST
+
+### ÄNDERUNGEN
+- Datei: `universe.md`
+  - Was: Vollständige Überarbeitung und massive Erweiterung. Strukturierung in fünf separate Sektionen gemäß dem Masterplan. Detaillierung der Säulen des INFINITY-Kosmos, vertiefte Ausarbeitung der ACP-Verhandlungsmethoden (Inter-Agent-Kommunikation) und des MCP-Sicherheitsgates (Local-Bridge-Härtung). Detaillierte Beschreibung der kooperativen Kausalkette anhand eines Ablaufdiagramms sowie Verankerung der drei eisernen Integrationsgesetze (SST, Algorithmische Apnoe, Verbot retrospektiver Zensur) in ausführlicher Prosa.
+
+### STATUS
+- Universe M.E.: BEREIT & AKTIV ✔ (Autor des Blackbooks, System verifiziert)
+- Buch INFINITY: In Bearbeitung (Aktivierungs-Eintrag v1.1.0 in CHANGELOG.md)
+- Interface INFINITY: In Planung (Grundstein gelegt)
+
+---
+
 ## [Version 2.0.0] — Das geschlossene Paradoxon & Genesis-Abschluss — Berlin, 9. Juli 2026, 18:20 Uhr CEST
 
 ### ÄNDERUNGEN
