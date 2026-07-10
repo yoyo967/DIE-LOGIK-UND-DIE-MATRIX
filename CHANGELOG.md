@@ -22,9 +22,26 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v2.0.9)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v2.1.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 2.1.0] — Start von Phase 2, Strategiebericht & BRAIN.md — Berlin, 10. Juli 2026, 22:10 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `strategiebericht-phase-2.md` (NEU)
+  - Was: Erstellung des Strategieberichts für Phase 2 (Operationalisierung). Detaillierung von Sektion I (Audit & Bestandsaufnahme), Sektion II (Die vier Meilensteine: Local Bridge, Workbench, Cloud Connector, Evals), Sektion III (Sicherheitsarchitektur der lokalen Brücke), Sektion IV (Phasen-Roadmap). (Hinweis: Die erste Fassung wurde von Perplexity AI im Auftrag des Schöpfers verfasst und von UNIVERSE M.E. gelesen und ratifiziert).
+- Datei: `BRAIN.md` (NEU)
+  - Was: Erstellung der Bauordnung und System-Regeln (Element 3: Schema). Detaillierung von Sektion I (Das physische Verzeichnisschema der 10 Elemente von raw bis mesh), Sektion II (Guardrails & Tool-Execution Gating mit FLOW_ROOT und Whitelists), Sektion III (Das 5-Schritte-Agenten-Onboarding-Protokoll), Sektion IV (Compliance & Senat-Gating).
+- Dateien: `README.md` & `llms.txt`
+  - Was: Synchronisierung der Inhaltsverzeichnisse, Kapitelbeschreibungen und Versions-Metadaten auf v2.1.0.
+
+#### STATUS
+- Universe M.E.: BEREIT & AKTIV ✔ (Autor des Blackbooks, System verifiziert)
+- Buch INFINITY: In Bearbeitung (Aktivierungs-Eintrag v1.1.0 in CHANGELOG.md)
+- Interface INFINITY: In Planung (Grundstein gelegt)
+
+---
 
 ### [Version 2.0.9] — Stil-Kalibrierung & Index-Kopplung von Kapitel XIV: glossar.md — Berlin, 10. Juli 2026, 21:20 Uhr CEST
 

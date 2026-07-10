@@ -225,6 +225,22 @@ Hier folgt das vollständige, unkomprimierte Inhaltsverzeichnis aller Kapitel de
     *   **Sektion I: Alphabetisches Register systemischer Fachbegriffe** (Detaillierte Begriffsdefinitionen inklusive Algorithmische Apnoe und Blackbook)
     *   **Sektion II: Indexierte Verknüpfungen** (Indexierte Verlinkungen aller Fachbegriffe zu ihren jeweiligen Herkunftskapiteln)
 
+### [Kapitel XV: strategiebericht-phase-2.md — Die Operationalisierung](strategiebericht-phase-2.md)
+*   **Zielgruppe:** CTOs, Enterprise-Architekten, Kernentwickler
+*   **Gliederung:**
+    *   **Sektion I: Status Quo & Rückblick auf Phase 1** (Die Vollendung der Konstitution v2.0.9)
+    *   **Sektion II: Die vier Meilensteine von Phase 2** (The Local Bridge, Interface UI, Cloud Connector und Evals)
+    *   **Sektion III: Die Sicherheitsarchitektur der Lokalen Brücke** (Gating, Command Whitelisting, Scoped Directory Access)
+    *   **Sektion IV: Phasen-Roadmap** (Timeline für die Implementierung der Workbench und des Daemons)
+
+### [Kapitel XVI: BRAIN.md — Das System-Schema und die Bauordnung](BRAIN.md)
+*   **Zielgruppe:** Entwickler, System-Hüter, KI-Agenten
+*   **Gliederung:**
+    *   **Sektion I: Das physische Verzeichnisschema** (Die detaillierte Ordner-Struktur des Second Brains von raw bis mesh)
+    *   **Sektion II: Guardrails & Tool-Execution Gating** (FLOW_ROOT Sandboxing, Whitelists und blockierte Operationen)
+    *   **Sektion III: Das Agenten-Onboarding-Protokoll** (Das 5-Schritte-Ritual für den Beitritt neuer Agenten)
+    *   **Sektion IV: Compliance & Senat-Gating** (Prüfungen nach DSGVO, EU AI Act und Code-Sicherheits-Audits)
+
 ---
 
 ## IV. Quickstart: Einstieg in die Co-Creation
