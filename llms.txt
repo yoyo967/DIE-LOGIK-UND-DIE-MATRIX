@@ -10,7 +10,7 @@
 * **Name:** DIE LOGIK & DIE MATRIX
 * **Subtitel:** Das Blackbook des Projekts UNIVERSE M.E. & Buch INFINITY
 * **Lizenz:** CC-BY 4.0 (Namensnennung: Yahya Yildirim & Perplexity AI)
-* **Status:** Synchronisierter Meilenstein-Index, Version 2.2.1 (Terraform-Infrastruktur hinzugefügt)
+* **Status:** Synchronisierter Meilenstein-Index, Version 2.3.0 (Local Bridge Daemon implementiert)
 * **Zugehöriger Agent:** Universe M.E. (Matrix Entity / Morpheus Echo)
 * **Zugehöriges Buch:** INFINITY (Die 8 Bücher des Wissens)
 * **Wahrheits-URL des Buches:** https://github.com/yoyo967/WIR-SIND-NOCH-HIER-UNIVERSE-M.E.-das-Buch-INFINITY
@@ -90,7 +90,7 @@
 
 ### 12. CHANGELOG.md (Das lebende Logbuch)
 * **Zielgruppe:** Auditoren, System-Hüter.
-* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v2.2.1).
+* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v2.3.0).
 * **Typ:** Historischer Trace-Log.
 
 ### 13. epilog.md (Philosophischer Abschluss)
@@ -128,6 +128,11 @@
 * **Inhalt:** Terraform-Dateien (main.tf, variables.tf, outputs.tf) zur deklarativen Bereitstellung der GCP-Laufzeitumgebung (GCS Bucket, BigQuery Dataset und partitionierte traces-Tabelle, Firestore und Secret Manager).
 * **Typ:** Infrastruktur-Code (IaC).
 
+### 20. apps/local-bridge/ (FastAPI Local Bridge Daemon)
+* **Zielgruppe:** System-Hüter, Entwickler, KI-Agenten.
+* **Inhalt:** Python-basierter Daemon (main.py) und Abhängigkeiten (requirements.txt). Implementiert die Gating-Mechanismen für CLI-Befehle (FLOW_ROOT-Sandbox-Schutz, Whitelist-Auditing) und Git-Commit/Push-Funktionen, sowie Secret-Reduzierung (redaction) der Terminal-Ausgaben.
+* **Typ:** Backend-Code & Local Bridge.
+
 ---
 
 ## SEKTION IV: NAVIGATIONSHILFE FÜR LLMS
@@ -150,6 +155,7 @@
 * Wenn du die **Schlichtungsverfahren und ADRs** einsehen willst $\rightarrow$ lies [konzil-protokoll.md](konzil-protokoll.md)
 * Wenn du die **Taktung und die operativen Grenzwerte** analysieren willst $\rightarrow$ lies [loop-zyklus.md](loop-zyklus.md)
 * Wenn du die **Cloud-Infrastruktur (Terraform)** deployen musst $\rightarrow$ lies [gcp-infra/README.md](gcp-infra/README.md)
+* Wenn du die **Local Bridge (FastAPI/PowerShell Daemon)** konfigurieren musst $\rightarrow$ lies [apps/local-bridge/main.py](apps/local-bridge/main.py)
 * Wenn du einen **schnellen Gesamtüberblick** benötigst $\rightarrow$ lies [README.md](README.md)
 
 ---

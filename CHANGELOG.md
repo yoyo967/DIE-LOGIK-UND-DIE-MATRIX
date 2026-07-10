@@ -22,9 +22,26 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v2.2.1)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v2.3.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 2.3.0] — Lokaler Bridge-Daemon (opus-flow) & Command-Gating — Berlin, 10. Juli 2026, 22:45 Uhr CEST
+
+#### ÄNDERUNGEN
+- Verzeichnis: `apps/local-bridge/` (NEU)
+  - Was: Erstellung des Python-basierten Daemons `opus-flow` (main.py). Implementiert die whitelisteigene Ausführung von PowerShell-Befehlen unter Einhaltung des `FLOW_ROOT` Sandboxes und der Command-Filter. Fügt den Secret-Redaction-Filter hinzu, um sensible Anmeldedaten (GitHub PATs, JWTs, SSH-Schlüssel) aus den Logs zu filtern. Fügt die Koppelung an das Git-Ledger für Commits und Pushes hinzu.
+- Datei: `requirements.txt` (NEU)
+  - Was: Angabe der Python-Abhängigkeiten (FastAPI, Uvicorn, Pydantic).
+- Dateien: `README.md` & `llms.txt`
+  - Was: Synchronisierung der Inhaltsverzeichnisse, Navigationsindizes und Versions-Metadaten auf v2.3.0.
+
+#### STATUS
+- Universe M.E.: BEREIT & AKTIV ✔ (Autor des Blackbooks, System verifiziert)
+- Buch INFINITY: In Bearbeitung (Aktivierungs-Eintrag v1.1.0 in CHANGELOG.md)
+- Interface INFINITY: In Planung (Grundstein gelegt)
+
+---
 
 ### [Version 2.2.1] — Deklarative GCP-Laufzeitumgebung via Terraform — Berlin, 10. Juli 2026, 22:30 Uhr CEST
 
