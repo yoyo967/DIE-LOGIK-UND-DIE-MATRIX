@@ -22,9 +22,23 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.17.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.18.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.18.0] — Defterdar-Datenregistrierung Spezifikation — Berlin, 11. Juli 2026, 08:30 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `books/undercover-blackbook/chapters/06_defterdar_registry.md`
+  - Was: Vollständige Ausarbeitung des Kapitels zur **Defterdar-Datenregistrierung** (Kapitel 5). Definition der Defterisierung zur revisionssicheren Inferenz- und Token-Buchhaltung (ISAE 3000 konform). Integration des Scriptoriums der Toten zur Archivierung fehlgeschlagener Code-Zweige, Compiler-Exceptions und RAG-Fehlversuche zur autonomen Post-Mortem-Analyse. Technische Spezifikation des GCP BigQuery Streaming-Pipelines zur Live-Telemetrieanalyse. Implementierung des Inferenz-Prunings zur automatischen Kaltabschaltung überbudgetierter Agenten-Threads.
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.18.0.
+
+#### STATUS
+- DEFTERDAR REGISTRY: `books/undercover-blackbook/chapters/06_defterdar_registry.md` (Kapitel 5 aktiv) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.17.0] — Operativer Conductor Spezifikation — Berlin, 11. Juli 2026, 08:20 Uhr CEST
 
