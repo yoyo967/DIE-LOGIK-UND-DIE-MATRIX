@@ -286,6 +286,7 @@ Hier folgt das vollständige, unkomprimierte Inhaltsverzeichnis aller Kapitel de
     *   **[Kapitel 12: Decentralized System Resilience (P2P Mesh Replicas)](books/undercover-blackbook/chapters/12_resilience_p2p.md)** (Zensurresistente Replikation über IPFS und Nostr-Relays)
     *   **[Kapitel 13: Interface INFINITY Evolutions Architectural Blueprint](books/undercover-blackbook/chapters/13_architectural_blueprint.md)** (Dreifache Verkoppelung von Theia, FastAPI und CONTINUUM)
     *   **[Epilogue: Future Frontiers & Scalability Outlook](books/undercover-blackbook/chapters/14_epilogue.md)** (Ausblick auf globale Agenten-Netzwerke)
+    *   **[Kapitel 15: Compliance, Regulation & Security Assurance (BSI A5 & EU AI Act)](books/undercover-blackbook/chapters/15_compliance_and_governance.md)** (Prüfarchitektur nach BSI A5, EU AI Act, DSGVO und Data Act)
 
 ---
 

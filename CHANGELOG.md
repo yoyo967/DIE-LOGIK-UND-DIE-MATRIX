@@ -22,9 +22,24 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.7.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.8.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.8.0] — BSI A5 & EU AI Act Compliance — Berlin, 11. Juli 2026, 05:25 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `books/undercover-blackbook/chapters/15_compliance_and_governance.md` [NEW]
+  - Was: Neues Kapitel 15 zur Compliance und Governance. Integration des **BSI A5 (AI Audit and Assurance Assessment Architecture)** Standards (Horizontales Trustworthiness Basismodul und Betriebsmodul Cloud-Infrastruktur / BSI C5). Strukturierte Darlegung der Konformität mit dem **EU AI Act** (GPAI Klassifizierung und Risikomanagement), der **DSGVO** (kryptografisches Protokoll 322, Kontext-Minimierung) und dem **Data Act** (IP-Attribution und Datenportabilität).
+- Dateien: `README.md` (Buch & Haupt), `metadata.json`, `mkdocs.yml` & `llms.txt`
+  - Was: Ergänzung von Kapitel 15 in allen Inhaltsverzeichnissen und Bumping der Versions-Metadaten auf v3.8.0.
+
+#### STATUS
+- COMPLIANCE SHIELD: BSI A5, EU AI Act, DSGVO und Data Act verankert (v3.8.0 aktiv) ✔
+- BOOK EXPLORER: books/undercover-blackbook/ (Kapitel 15 aktiv) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.7.0] — Meisterhaftes Vorwort & Ratifizierung — Berlin, 11. Juli 2026, 05:05 Uhr CEST
 

@@ -39,6 +39,8 @@ Select a chapter to explore the technical details:
     *   Theia-workbench, FastAPI-middleware, and CONTINUUM sync engine.
 15. **[Epilogue: Future Frontiers & Scalability Outlook](./chapters/14_epilogue.md)**
     *   Roadmap for cross-platform agent networks and Vertex AI developments.
+16. **[Chapter 15: Compliance, Regulation & Security Assurance (BSI A5 & EU AI Act)](./chapters/15_compliance_and_governance.md)**
+    *   Mapping BSI A5 criteria, C5 operational modularity, EU AI Act, and DSGVO.
 
 ---
 
