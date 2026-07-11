@@ -22,9 +22,23 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.28.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.29.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.29.0] — SOVEREIGN Developer Handbook Release — Berlin, 11. Juli 2026, 14:00 Uhr CEST
+
+#### ÄNDERUNGEN
+- Verzeichnis: `books/sovereign-handbook/` [NEU]
+  - Was: Vollständige Erstellung des neuen Buchprojekts **SOVEREIGN Developer Handbook** (v1.0.0). Strukturierung und Ausformulierung aller 21 Kapitel, aufgeteilt in 14 modularisierte Kapitel-Dateien. Umfasst die Produktvision (Life Admin Tax, 2030 Deklaration), die 4 APEX-Schichten (Data, Protection, Control, Trust Layer), Android Clean Architecture, Compose UI/UX (SwipeToApprove), GCP/Ktor Backend-Dienste, Agent-Orchestrierung (Sovereign Brain), Agenten-Knoten (Negotiation, Switching, Claim Nodes), Sensing Layer (Gmail OAuth2 & finAPI/Tink PSD2), metered Abrechnung (Stripe Connect) und autonome Transaktions-Tokenisierung (**Mastercard Agent Pay**), mobile Sicherheitsarchitekturen (Keystore, Algorithmic Senate), Firestore-Datenschemata, FCM Push-Payloads, Testsuite und CI/CD-Pipelines sowie rechtliche Rahmenbedingungen (BGB Fernabsatz-Widerruf, DSGVO Art. 20 Datenportabilität) und die Roadmap 2025–2030 (Foundation, Intelligence, Network, 2030 Standard). Integration der live extrahierten Plattform-Metadaten von der Live-URL (`https://opus-magnum-ai.web.app/de`).
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.29.0.
+
+#### STATUS
+- SOVEREIGN HANDBOOK: `books/sovereign-handbook/` komplettiert und kompiliert (v1.0.0) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.28.0] — Handbuch OMM Release — Berlin, 11. Juli 2026, 11:00 Uhr CEST
 

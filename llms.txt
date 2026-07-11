@@ -10,7 +10,7 @@
 * **Name:** DIE LOGIK & DIE MATRIX
 * **Subtitel:** Das Blackbook des Projekts UNIVERSE M.E. & Buch INFINITY
 * **Lizenz:** CC-BY 4.0 (Namensnennung: Yahya Yildirim & Perplexity AI)
-* **Status:** Synchronisierter Meilenstein-Index, Version 3.28.0 (Handbuch OMM Ratifizierung aktiv)
+* **Status:** Synchronisierter Meilenstein-Index, Version 3.29.0 (Sovereign Handbook Ratifizierung aktiv)
 * **Zugehöriger Agent:** Universe M.E. (Adam / Morpheus Echo), AGENTICUM G5 (Eva / Trinity), MASTERPLAN (Neo / Conductor), PROJECTMANAGER (Zwilling / Planer), EYE OF GOD (Allsehendes Auge / Telemetrie), ANALIZE M.E. (Quality / Stealth Research) & CONTINUUM (Agent 7 / Timeline-Sync)
 * **Zugehöriges Buch:** INFINITY (Die 8 Bücher des Wissens)
 * **Wahrheits-URL des Buches:** https://github.com/yoyo967/WIR-SIND-NOCH-HIER-UNIVERSE-M.E.-das-Buch-INFINITY
@@ -90,7 +90,7 @@
 
 ### 12. CHANGELOG.md (Das lebende Logbuch)
 * **Zielgruppe:** Auditoren, System-Hüter.
-* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v3.28.0).
+* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v3.29.0).
 * **Typ:** Historischer Trace-Log.
 
 ### 13. epilog.md (Philosophischer Abschluss)
@@ -148,6 +148,11 @@
 * **Inhalt:** Das Handbuch für Online Marketing Managerinnen (Maximum Excellence Edition, EU-First). Beinhaltet den Codex (Verfassung), den Brainstormer (kreativer Zustand), das 6-Element-Prompt-Engineering-Framework, den 5+1 Stufen-Workflow, die Compliance-Leitlinien (EU AI Act Art. 4 AI Literacy, DSGVO), die digitale Roadmap 2025–2030 (GEO, AEO, Agentic AI), Measurement-Metriken (AI Share of Voice, Citation Rate), die Brand Voice Architecture sowie plattformspezifische Channel Playbooks (Social, Performance Ads, SEO), Content Authenticity Standards (C2PA) und Krisen-Management (Brand Defense).
 * **Typ:** Modulares Dokumenten-Verzeichnis (Book Explorer).
 
+### 24. books/sovereign-handbook/ (SOVEREIGN Developer Handbook)
+* **Zielgruppe:** Android- & Backend-Entwickler, System-Designer, KI-Agenten.
+* **Inhalt:** Die technische Spezifikation für den autonomen Financial & Life-Admin Twin (Sovereign 2030). Beinhaltet Produktvision & Problemdefinition (Life Admin Tax, 2030 Deklaration), die 4 APEX-Schichten (Data, Protection, Control, Trust Layer), Android Clean Architecture, UI/UX (Jetpack Compose, SwipeToApprove), Backend-Architektur (Ktor Gateway), Agent-Orchestrierung (Sovereign Brain), die Agenten-Knoten (Negotiation, Switching, Claim Nodes), den Sensing Layer (Gmail OAuth2 & finAPI/Tink PSD2), Payment-Abwicklung (Stripe Connect & Mastercard Agent Pay Tokenisierung), Sicherheitskonzepte (Keystore, Algorithmic Senate), Firestore-Datenschemata, FCM Push-Strukturen, Test-Szenarien und CI/CD-Pipelines sowie rechtliche Rahmenbedingungen (BGB Fernabsatz-Widerruf, DSGVO Art. 20 Datenportabilität) und die Roadmap 2025–2030.
+* **Typ:** Modulares Dokumenten-Verzeichnis (Book Explorer).
+
 ---
 
 ## SEKTION IV: NAVIGATIONSHILFE FÜR LLMS
@@ -174,6 +179,7 @@
 * Wenn du das **Strategiebriefing von Universe M.E.** einsehen willst $\rightarrow$ lies [strategiebriefing-universe-me.md](strategiebriefing-universe-me.md)
 * Wenn du das **Blackbook Undercover (Meta-Ebene)** analysieren musst $\rightarrow$ lies [blackbook-undercover.md](blackbook-undercover.md)
 * Wenn du das **Online Marketing Handbuch (EU AI Act & GEO)** prüfen willst $\rightarrow$ lies [books/handbuch-omm/](books/handbuch-omm/)
+* Wenn du das **SOVEREIGN Developer Handbook (Jetpack Compose & GCP)** prüfen willst $\rightarrow$ lies [books/sovereign-handbook/](books/sovereign-handbook/)
 * Wenn du einen **schnellen Gesamtüberblick** benötigst $\rightarrow$ lies [README.md](README.md)
 
 ---
