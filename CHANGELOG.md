@@ -22,9 +22,23 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.14.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.15.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.15.0] — Closed-Loop Autopoiese & Telemetrie-Recycling Spezifikation — Berlin, 11. Juli 2026, 08:00 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `books/undercover-blackbook/chapters/03_telemetry_recycling.md`
+  - Was: Vollständige Ausarbeitung des Kapitels zur **Closed-Loop Autopoiese** (Kapitel 2). Detailbeschreibung des thermodynamic principles zur informationellen Entropie-Nutzung. Etablierung des kognitiven Recyclings von Stack-Traces und Exceptions als negative RAG-Vektoren über Vertex AI Embeddings zur Blockierung fehlerhafter Inferenzpfade. Detaillierung des Monitorings von semantischem Drift mit autarker Temperatur-Modulation und Prompt-Rekalibrierung. Spezifikation der globalen Ingestion-Pipeline (BSI/GitHub Webhooks) zum permanenten Abgleich mit externen Standards.
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.15.0.
+
+#### STATUS
+- TELEMETRY RECYCLING: `books/undercover-blackbook/chapters/03_telemetry_recycling.md` (Kapitel 2 aktiv) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.14.0] — Remote Control & Mobile Gatekeeping Spezifikation — Berlin, 11. Juli 2026, 07:50 Uhr CEST
 
