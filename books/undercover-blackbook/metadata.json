@@ -1,0 +1,26 @@
+{
+  "title": "Interface INFINITY Evolutions: Swarm Governance Specification",
+  "subtitle": "Technische System-Spezifikation für Agenten-Autopoiese",
+  "version": "3.6.0",
+  "date": "2026-07-11",
+  "authors": [
+    "Yahya Yildirim",
+    "Interface INFINITY Open-Source Community"
+  ],
+  "collaborators": [
+    "Gemini (Autonomous AI Co-Creator)"
+  ],
+  "target_platforms": [
+    "Google Cloud Platform (GCP)",
+    "Vertex AI",
+    "Google Antigravity"
+  ],
+  "publishing_targets": {
+    "live": "GitHub Pages (MkDocs)",
+    "ebooks": [
+      "PDF",
+      "EPUB"
+    ],
+    "print": "Print-on-Demand (KDP/Lulu)"
+  }
+}

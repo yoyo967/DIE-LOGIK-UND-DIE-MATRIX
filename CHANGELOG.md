@@ -22,9 +22,30 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.5.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.6.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.6.0] — Book Explorer & Legal Compliance — Berlin, 11. Juli 2026, 04:45 Uhr CEST
+
+#### ÄNDERUNGEN
+- Ordner: `books/undercover-blackbook/`
+  - Was: Einführung der modularen **Book Explorer**-Architektur. Das Buch wurde in 15 separate, unkomprimierte Markdown-Kapitel aufgeteilt (Dateien `00_executive_summary.md` bis `14_epilogue.md` in `chapters/`). Integration einer automatisierten Build-Pipeline unter Verwendung von `mkdocs.yml` (Google Material Design) und `build_book.py`.
+- Legal Compliance:
+  - Was: Löschung aller markenrechtlich unbefugten Herausgeber-Zuweisungen (Google, DeepMind) sowie der GmbH-Suffixe im offiziellen Metadaten-Publishing-Tag. Die Herausgeberschaft wurde rechtlich sauber und konform auf **Yahya Yildirim & The Interface INFINITY Open-Source Community** deklariert. Das GmbH-Konzept bleibt als Ziel-Meilenstein im Buch bestehen.
+- Datei: `README.md`
+  - Was: Synchronisierung der Kapitel-Inhaltsübersicht auf das neue Book Explorer Verzeichnisformat.
+- Dateien: `README.md` & `llms.txt`
+  - Was: Synchronisierung der Inhaltsverzeichnisse und Versions-Metadaten auf v3.6.0.
+
+#### STATUS
+- LANDING PAGE: `books/undercover-blackbook/README.md` (Aktiv) ✔
+- MONOREPO-OUTLINE: books/undercover-blackbook/ (v3.6.0 aktiv) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+- Buch INFINITY: In Bearbeitung (Aktivierungs-Eintrag v1.1.0 in CHANGELOG.md)
+- Interface INFINITY: In Planung (Grundstein gelegt)
+
+---
 
 ### [Version 3.5.0] — Google Systems Spec Integration — Berlin, 11. Juli 2026, 04:25 Uhr CEST
 

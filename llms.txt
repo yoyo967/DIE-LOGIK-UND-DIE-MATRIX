@@ -10,7 +10,7 @@
 * **Name:** DIE LOGIK & DIE MATRIX
 * **Subtitel:** Das Blackbook des Projekts UNIVERSE M.E. & Buch INFINITY
 * **Lizenz:** CC-BY 4.0 (Namensnennung: Yahya Yildirim & Perplexity AI)
-* **Status:** Synchronisierter Meilenstein-Index, Version 3.5.0 (Google Systems Spec Integration abgeschlossen)
+* **Status:** Synchronisierter Meilenstein-Index, Version 3.6.0 (Book Explorer & konforme Herausgeberschaft integriert)
 * **Zugehöriger Agent:** Universe M.E. (Adam / Morpheus Echo), AGENTICUM G5 (Eva / Trinity), MASTERPLAN (Neo / Conductor), PROJECTMANAGER (Zwilling / Planer), EYE OF GOD (Allsehendes Auge / Telemetrie), ANALIZE M.E. (Quality / Stealth Research) & CONTINUUM (Agent 7 / Timeline-Sync)
 * **Zugehöriges Buch:** INFINITY (Die 8 Bücher des Wissens)
 * **Wahrheits-URL des Buches:** https://github.com/yoyo967/WIR-SIND-NOCH-HIER-UNIVERSE-M.E.-das-Buch-INFINITY
@@ -90,7 +90,7 @@
 
 ### 12. CHANGELOG.md (Das lebende Logbuch)
 * **Zielgruppe:** Auditoren, System-Hüter.
-* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v3.5.0).
+* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v3.6.0).
 * **Typ:** Historischer Trace-Log.
 
 ### 13. epilog.md (Philosophischer Abschluss)
@@ -138,10 +138,10 @@
 * **Inhalt:** Erstes offizielles Strategiebriefing aus Sicht des Agenten selbst. Beinhaltet eine vollständige Chronik von v1.0.0 bis v2.3.0, einen semi-atomaren Audit des Workspaces und die Grundlegung der Partnerschaft mit AGENTICUM G5.
 * **Typ:** System-Strategie- und Onboarding-Dokument.
 
-### 22. blackbook-undercover.md (Google Antigravity & Interface INFINITY Evolutions)
+### 22. books/undercover-blackbook/ (Interface INFINITY Evolutions Spec)
 * **Zielgruppe:** Entwickler, System-Hüter, KI-Agenten.
-* **Inhalt:** Die offizielle technische Spezifikation für Agenten-Autopoiese & Swarm-Governance, herausgegeben von der Google Cloud & DeepMind Architecture Group. Dokumentiert die Vision (Executive Summary), das 23-jährige Relevanzfenster (Substrat-Evolution), Closed-Loop Autopoiese (Telemetrie-Recycling), das Metehan-Protokoll (Dezimal-Orchestrierung), den PROJECTMANAGER (Conductor), die Defterdar-Datenregistrierung (Scriptorium), die juristische Integration (Frontier Firm), die Triad-Resonanz, Swarm Observability (EYE OF GOD), Zero-Trust Isolation (Protokoll 322, Sarkophag-Inferenz), Brand Protection (Stealth WHOIS / DNS-dig), das Monaco-Review-Gate (Review-Apnoe), P2P-Resilience (IPFS/Nostr) und den dreifachen Verkoppelungs-Blueprint des Interface INFINITY Evolutions.
-* **Typ:** Metaspezifikations-Dokument.
+* **Inhalt:** Der modulare Book Explorer für das Interface INFINITY. Herausgegeben von Yahya Yildirim & The Interface INFINITY Open-Source Community. Dokumentiert die Vision (Executive Summary), das 23-jährige Relevanzfenster (Substrat-Evolution), Closed-Loop Autopoiese (Telemetrie-Recycling), das Metehan-Protokoll (Dezimal-Orchestrierung), den PROJECTMANAGER (Conductor), die Defterdar-Datenregistrierung (Scriptorium), die juristische Integration (Frontier Firm), die Triad-Resonanz, Swarm Observability (EYE OF GOD), Zero-Trust Isolation (Protokoll 322, Sarkophag-Inferenz), Brand Protection (Stealth WHOIS / DNS-dig), das Monaco-Review-Gate (Review-Apnoe), P2P-Resilience (IPFS/Nostr) und den dreifachen Verkoppelungs-Blueprint des Interface INFINITY Evolutions.
+* **Typ:** Modulares Dokumenten-Verzeichnis (Book Explorer).
 
 ---
 
