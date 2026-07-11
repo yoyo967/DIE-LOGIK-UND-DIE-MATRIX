@@ -1,5 +1,4 @@
 name: CI — Continuous Integration
-
 on:
   push:
     branches: [ main ]
@@ -13,19 +12,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install ruff
-        run: pip install ruff>=0.1.0
-
-      - name: Run ruff linter (warnings only — non-blocking)
-        run: ruff check apps/ --exit-zero
-        # --exit-zero: Linting-Issues werden als Warnings behandelt, blockieren den CI nicht.
-        # TODO: Auf stricten Modus umstellen wenn legacy Code bereinigt ist.
+        run: pip install "ruff>=0.1.0"
+      - name: Run ruff linter (blocking on apps/)
+        run: ruff check apps/
 
   test:
     name: Test (pytest)
@@ -33,16 +27,13 @@ jobs:
     strategy:
       matrix:
         python-version: ['3.11', '3.12']
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-
       - name: Cache pip dependencies
         uses: actions/cache@v4
         with:
@@ -50,13 +41,11 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install pytest pytest-asyncio httpx
-
       - name: Run tests
         run: pytest tests/ -v --tb=short
 
@@ -66,15 +55,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install pip-audit
         run: pip install pip-audit
-
       - name: Run pip-audit (dependency vulnerability scan)
         run: pip-audit -r requirements.txt --desc
         continue-on-error: true
