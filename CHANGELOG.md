@@ -22,9 +22,23 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.11.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.12.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.12.0] — Agentic Book Factory Spezifikation — Berlin, 11. Juli 2026, 06:15 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `books/undercover-blackbook/chapters/01_executive_summary.md`
+  - Was: Vollständige Ausarbeitung des Kapitels zu einer detaillierten technischen Spezifikation der **Agentic Book Factory**. Einführung der funktionalen Säulen (State, Filesystem Autonomy, Swarm Concurrency, Compiler Pipelines), der Marketing- und SEO-Automatisierung, der interaktiven RAG-Buch-API (Self-Healing Spec), des Git-Blame IP Split Ledgers für faire Autorenschafts-Zuweisung, der Executable Specifications (Literate Programming 2.0) und des Literature SRE Modells (Readability & Link SLOs).
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.12.0.
+
+#### STATUS
+- EXECUTIVE SUMMARY: `books/undercover-blackbook/chapters/01_executive_summary.md` (Agentic Book Factory aktiv) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.11.0] — Verifizierbarkeits-Codex & Prolog-Bereinigung — Berlin, 11. Juli 2026, 06:05 Uhr CEST
 
