@@ -22,9 +22,23 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.24.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.25.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.25.0] — Architectural Blueprint Spezifikation — Berlin, 11. Juli 2026, 10:20 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `books/undercover-blackbook/chapters/14_architectural_blueprint.md`
+  - Was: Vollständige Ausarbeitung des Kapitels zum **Architectural Blueprint** (Kapitel 13). Etablierung des logischen Schichtenmodells (Frontend, Middleware, zeitlicher Koordinator). Technische Definition der reaktiven Frontend-Workbench (`opus-deck`) auf Eclipse-Theia-Basis mit WebSocket-Datenströmen und SRE-Metrik-Widgets. Spezifikation der Middleware-Architektur (`opus-flow`) als FastAPI-Daemon mit Redis-Event-Warteschlangen, Sandbox-Lifecycle-Management und BigQuery-Adaptern. Spezifikation der Synchronisations-Engine (Agent 7, `CONTINUUM`) zur zeitlichen und dokumentarischen Kohärenz-Sicherung.
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.25.0.
+
+#### STATUS
+- ARCHITECTURAL BLUEPRINT: `books/undercover-blackbook/chapters/14_architectural_blueprint.md` (Kapitel 13 aktiv) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.24.0] — P2P-Resilienz Spezifikation — Berlin, 11. Juli 2026, 10:10 Uhr CEST
 
