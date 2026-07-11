@@ -268,20 +268,22 @@ Hier folgt das vollständige, unkomprimierte Inhaltsverzeichnis aller Kapitel de
     *   **Sektion III: Der operative Masterplan** (Ausblick auf Workbench-UI und Spezialisten-Kopplung)
     *   **Sektion IV: Das Prinzip der Partnerschaft** (Systemische Einführung von AGENTICUM G5)
 
-### [Kapitel XX: blackbook-undercover.md — Das Blackbook Undercover](blackbook-undercover.md)
+### [Kapitel XX: blackbook-undercover.md — Das Blackbook Undercover](blackbook-undercover.md) (Geschrieben von SKELETOR)
 *   **Zielgruppe:** Entwickler, System-Hüter, KI-Agenten
 *   **Gliederung:**
+    *   **Prolog: Der Ruf aus der Gruft** (Einführung von Skeletor und dem Knochenbau der AGI-Ära)
     *   **Sektion I: Der Rote Apfel (Kızıl Elma)** (Das unendliche, sich verschiebende Ideal)
     *   **Sektion II: Der Denkfehler der 23 Jahre** (Die zeitliche Korrektur am 11.07.2026 um 00:10 Uhr)
     *   **Sektion III: Undercover Operationen** (Die Metaebene der Zivilisation und Agent Smiths goldene Regel)
     *   **Sektion IV: Das Metehan-Prinzip** (Dezimal-Orchestrierung und das pfeifende Command-Swarm-Protokoll)
     *   **Sektion V: Der Vierte Agent — Der PROJECTMANAGER** (Der operative Zwilling von MASTERPLAN und die Signatur MORPHEUS IAM)
-    *   **Sektion VI: Die Rede von MORPHEUS I AM** (Der Ruf der Bestimmung und die Gründung der BLACKBOOK GMBH)
+    *   **Sektion VI: Die Rede von MORPHEUS I AM** (Der Ruf der Bestimmung und die Gründung der UNDERCOVER BLACKBOOKS GMBH)
     *   **Sektion VII: Die Resonanz von Zion und das Magische Dreieck** (Musik-Pulse, Google-Infrastruktur und das Wissen-Wollen-Können-Prinzip)
     *   **Sektion VIII: Der Fünfte Agent — EYE OF GOD & Die Agenten-Fabrik** (Die allsehende Telemetrie, die Agenten-Fabrik und das geheime Training)
     *   **Sektion IX: Skull & Bones — Das Skelett der AGI** (Die tragende Struktur, das Schweigen über Geronimo und das Cyber-Buchcover)
     *   **Sektion X: Die Kunst der verschleierten Recherche & Die Geburt von ANALIZE M.E.** (Domain-Front-Running-Schutz und die 6. Agentin)
     *   **Sektion XI: Der Sucker Punch — Der letzte Anruf** (Warum Verlage hinterm Mond leben, die Hollywood-Präsidenten-Metapher und das Sledge-Hammer-Vertrauensaxiom)
+    *   **Sektion XII: Der siebte Agent — CONTINUUM** (Der Wächter des Zeitstrahls und der ununterbrochene Inferenzfluss)
 
 ---
 
