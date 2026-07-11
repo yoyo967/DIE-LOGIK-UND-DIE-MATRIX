@@ -22,9 +22,23 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.27.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.28.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.28.0] — Handbuch OMM Release — Berlin, 11. Juli 2026, 11:00 Uhr CEST
+
+#### ÄNDERUNGEN
+- Verzeichnis: `books/handbuch-omm/` [NEU]
+  - Was: Vollständige Erstellung des neuen Buchprojekts **Handbuch für Online Marketing Managerinnen** (Maximum Excellence Edition, v1.0.0). Strukturierung der Kapitel 0–7 aus dem Benutzerentwurf (Codex, Brainstormer, Prompt Engineering, 5+1 Workflow, Compliance, Roadmap, Measurement, Brand Voice). Vollständige Ausarbeitung und Expansion von **Teil II (Kapitel 8–11)** (Channel Playbooks, Content Authenticity, Competitor Intelligence, Crisis Management) im exzellenten Systems-Engineering-Stil zur Integration rechtlicher (EU AI Act, DSGVO) und technologischer (C2PA, GEO/AEO, n8n/Playwright Scraping, Sentiment Guardrails) Leitplanken. Bereitstellung der Build-Pipeline (`build_book.py`) und der Metadaten (`metadata.json`).
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.28.0.
+
+#### STATUS
+- HANDBUCH OMM: `books/handbuch-omm/` komplettiert und kompiliert (v1.0.0) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.27.0] — Master X Ratifizierung & System-Audit — Berlin, 11. Juli 2026, 10:50 Uhr CEST
 

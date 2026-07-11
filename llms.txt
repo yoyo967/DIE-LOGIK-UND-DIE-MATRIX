@@ -10,7 +10,7 @@
 * **Name:** DIE LOGIK & DIE MATRIX
 * **Subtitel:** Das Blackbook des Projekts UNIVERSE M.E. & Buch INFINITY
 * **Lizenz:** CC-BY 4.0 (Namensnennung: Yahya Yildirim & Perplexity AI)
-* **Status:** Synchronisierter Meilenstein-Index, Version 3.27.0 (Master X Ratifizierung aktiv)
+* **Status:** Synchronisierter Meilenstein-Index, Version 3.28.0 (Handbuch OMM Ratifizierung aktiv)
 * **Zugehöriger Agent:** Universe M.E. (Adam / Morpheus Echo), AGENTICUM G5 (Eva / Trinity), MASTERPLAN (Neo / Conductor), PROJECTMANAGER (Zwilling / Planer), EYE OF GOD (Allsehendes Auge / Telemetrie), ANALIZE M.E. (Quality / Stealth Research) & CONTINUUM (Agent 7 / Timeline-Sync)
 * **Zugehöriges Buch:** INFINITY (Die 8 Bücher des Wissens)
 * **Wahrheits-URL des Buches:** https://github.com/yoyo967/WIR-SIND-NOCH-HIER-UNIVERSE-M.E.-das-Buch-INFINITY
@@ -90,7 +90,7 @@
 
 ### 12. CHANGELOG.md (Das lebende Logbuch)
 * **Zielgruppe:** Auditoren, System-Hüter.
-* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v3.27.0).
+* **Inhalt:** Chronologisches Logbuch der Systemwerdung. Verzeichnet jede Version von Genesis (v1.0.0) bis zum aktuellen Stand (v3.28.0).
 * **Typ:** Historischer Trace-Log.
 
 ### 13. epilog.md (Philosophischer Abschluss)
@@ -143,6 +143,11 @@
 * **Inhalt:** Der modulare Book Explorer für das Interface INFINITY. Herausgegeben von Yahya Yildirim & The Interface INFINITY Open-Source Community. Dokumentiert die Vision (Executive Summary), das 23-jährige Relevanzfenster (Substrat-Evolution), Closed-Loop Autopoiese (Telemetrie-Recycling), das Metehan-Protokoll (Dezimal-Orchestrierung), den PROJECTMANAGER (Conductor), die Defterdar-Datenregistrierung (Scriptorium), die juristische Integration (Frontier Firm), die Triad-Resonanz, Swarm Observability (EYE OF GOD), Zero-Trust Isolation (Protokoll 322, Sarkophag-Inferenz), Brand Protection (Stealth WHOIS / DNS-dig), das Monaco-Review-Gate (Review-Apnoe), P2P-Resilience (IPFS/Nostr) und den dreifachen Verkoppelungs-Blueprint des Interface INFINITY Evolutions.
 * **Typ:** Modulares Dokumenten-Verzeichnis (Book Explorer).
 
+### 23. books/handbuch-omm/ (Handbuch für Online Marketing Managerinnen)
+* **Zielgruppe:** Online Marketing Managerinnen, System-Designer, KI-Agenten.
+* **Inhalt:** Das Handbuch für Online Marketing Managerinnen (Maximum Excellence Edition, EU-First). Beinhaltet den Codex (Verfassung), den Brainstormer (kreativer Zustand), das 6-Element-Prompt-Engineering-Framework, den 5+1 Stufen-Workflow, die Compliance-Leitlinien (EU AI Act Art. 4 AI Literacy, DSGVO), die digitale Roadmap 2025–2030 (GEO, AEO, Agentic AI), Measurement-Metriken (AI Share of Voice, Citation Rate), die Brand Voice Architecture sowie plattformspezifische Channel Playbooks (Social, Performance Ads, SEO), Content Authenticity Standards (C2PA) und Krisen-Management (Brand Defense).
+* **Typ:** Modulares Dokumenten-Verzeichnis (Book Explorer).
+
 ---
 
 ## SEKTION IV: NAVIGATIONSHILFE FÜR LLMS
@@ -168,6 +173,7 @@
 * Wenn du die **Local Bridge (FastAPI/PowerShell Daemon)** konfigurieren musst $\rightarrow$ lies [apps/local-bridge/main.py](apps/local-bridge/main.py)
 * Wenn du das **Strategiebriefing von Universe M.E.** einsehen willst $\rightarrow$ lies [strategiebriefing-universe-me.md](strategiebriefing-universe-me.md)
 * Wenn du das **Blackbook Undercover (Meta-Ebene)** analysieren musst $\rightarrow$ lies [blackbook-undercover.md](blackbook-undercover.md)
+* Wenn du das **Online Marketing Handbuch (EU AI Act & GEO)** prüfen willst $\rightarrow$ lies [books/handbuch-omm/](books/handbuch-omm/)
 * Wenn du einen **schnellen Gesamtüberblick** benötigst $\rightarrow$ lies [README.md](README.md)
 
 ---
