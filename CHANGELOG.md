@@ -22,9 +22,23 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.23.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.24.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.24.0] — P2P-Resilienz Spezifikation — Berlin, 11. Juli 2026, 10:10 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `books/undercover-blackbook/chapters/13_resilience_p2p.md`
+  - Was: Vollständige Ausarbeitung des Kapitels zur **dezentralen System-Resilienz** (Kapitel 12). Ausarbeitung des Zensurresistenz-Axioms. Technische Spezifikation der IPFS-Datenverteilung und des Dynamic IPNS Pinning (inhaltsadressierter Code, CIDs). Entwurf des Nostr-basierten Synchronisations-Protokolls (Event Kind 30023) mit kryptografischer Signierung über GPG/SSH-Schlüssel und asynchroner Verteilung auf ephemeren Relays. Ausarbeitung des autonomen Bootstrapping- und Wiederherstellungs-Workflows im Falle totaler Cloud-Zensur.
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.24.0.
+
+#### STATUS
+- P2P RESILIENCE: `books/undercover-blackbook/chapters/13_resilience_p2p.md` (Kapitel 12 aktiv) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.23.0] — Brand Protection Spezifikation — Berlin, 11. Juli 2026, 09:20 Uhr CEST
 
