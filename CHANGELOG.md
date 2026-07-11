@@ -22,9 +22,23 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.12.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.13.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.13.0] — Substrat-Evolution Spezifikation — Berlin, 11. Juli 2026, 07:40 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `books/undercover-blackbook/chapters/02_substrate_evolution.md`
+  - Was: Vollständige Ausarbeitung des Kapitels zu einer detaillierten technischen Spezifikation der **Substrat-Evolution** (Kapitel 1). Gegenüberstellung der Hardware-Flaschenhälse von 2003 (Von-Neumann-Engpass, x86-SIMD SSE2-Barrieren, 32-Bit RAM-Limits) und dem elastischen TPU-Inferenz-Substrat von 2026 (Matrix-Multiplikations-MXUs, High-Bandwidth HBM3 Speicher, latente Vektorräume, 2M+ Kontextfenster über Gemini und VPC-Datenisolation nach BSI C5).
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.13.0.
+
+#### STATUS
+- SUBSTRATE EVOLUTION: `books/undercover-blackbook/chapters/02_substrate_evolution.md` (Kapitel 1 aktiv) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.12.0] — Agentic Book Factory Spezifikation — Berlin, 11. Juli 2026, 06:15 Uhr CEST
 
