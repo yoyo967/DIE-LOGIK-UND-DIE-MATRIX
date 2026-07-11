@@ -22,9 +22,23 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.19.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.20.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.20.0] — Triad-Resonanz Spezifikation — Berlin, 11. Juli 2026, 08:50 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `books/undercover-blackbook/chapters/08_triad_resonance.md`
+  - Was: Vollständige Ausarbeitung des Kapitels zur **Triad-Resonanz** (Kapitel 7). Konzeption der Frequenz-Synchronisation (Fluke-Zion-Heartbeat) zur Abwehr von Clock- und Semantic-Drifts im asynchronen Polling-Betrieb. Strukturierung des Magischen Dreiecks der Fähigkeiten (Wissen/RAG, Wollen/OIL, Können/CLI) inklusive detaillierter Szenario-Analysen bei Dysbalancen (halluzinierende Passivität, destruktives Chaos, stagnierender Leerlauf). Mathematische Definition des Resonanz-Koeffizienten (Rt) zur automatischen System-Kalibrierung (Inferenz-Temperatur und RAG-Suchbreite).
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.20.0.
+
+#### STATUS
+- TRIAD RESONANCE: `books/undercover-blackbook/chapters/08_triad_resonance.md` (Kapitel 7 aktiv) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.19.0] — Swarm Frontier Firm Spezifikation — Berlin, 11. Juli 2026, 08:40 Uhr CEST
 
