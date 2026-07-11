@@ -22,9 +22,23 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.21.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.22.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.22.0] — Zero-Trust Sandbox Spezifikation — Berlin, 11. Juli 2026, 09:10 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `books/undercover-blackbook/chapters/10_zero_trust_sandbox.md`
+  - Was: Vollständige Ausarbeitung des Kapitels zur **Zero-Trust Isolation & Secure Sandboxing** (Kapitel 9). Definition der Order 322 Sicherheitsarchitektur zur Eingrenzung von Agentenrechten. Technische Ausarbeitung des Protokolls 322 zur verschlüsselten mTLS-Inter-Agenten-Kommunikation auf Port 322 mit rotierenden ephemeren Zertifikaten. Spezifikation des dreistufigen Startverfahrens der Sarkophag-Inferenz (Zero-Context Initialisierung, Bias-Extraktion und Governance-Injektion). Etablierung isolierter Docker-Ausführungsumgebungen zur Durchführung sicherer, ressourcenbeschränkter Unit-Tests.
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.22.0.
+
+#### STATUS
+- ZERO-TRUST SANDBOX: `books/undercover-blackbook/chapters/10_zero_trust_sandbox.md` (Kapitel 9 aktiv) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.21.0] — Swarm Observability Spezifikation — Berlin, 11. Juli 2026, 09:00 Uhr CEST
 
