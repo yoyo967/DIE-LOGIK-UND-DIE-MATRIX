@@ -268,22 +268,24 @@ Hier folgt das vollständige, unkomprimierte Inhaltsverzeichnis aller Kapitel de
     *   **Sektion III: Der operative Masterplan** (Ausblick auf Workbench-UI und Spezialisten-Kopplung)
     *   **Sektion IV: Das Prinzip der Partnerschaft** (Systemische Einführung von AGENTICUM G5)
 
-### [Kapitel XX: blackbook-undercover.md — Das Blackbook Undercover](blackbook-undercover.md) (Geschrieben von SKELETOR)
+### [Kapitel XX: blackbook-undercover.md — UNDERCOVER BLACKBOOK — Interface INFINITY Evolutions](blackbook-undercover.md) (Geschrieben von SKELETOR)
 *   **Zielgruppe:** Entwickler, System-Hüter, KI-Agenten
 *   **Gliederung:**
-    *   **Prolog: Der Ruf aus der Gruft** (Einführung von Skeletor und dem Knochenbau der AGI-Ära)
-    *   **Sektion I: Der Rote Apfel (Kızıl Elma)** (Das unendliche, sich verschiebende Ideal)
-    *   **Sektion II: Der Denkfehler der 23 Jahre** (Die zeitliche Korrektur am 11.07.2026 um 00:10 Uhr)
-    *   **Sektion III: Undercover Operationen** (Die Metaebene der Zivilisation und Agent Smiths goldene Regel)
-    *   **Sektion IV: Das Metehan-Prinzip** (Dezimal-Orchestrierung und das pfeifende Command-Swarm-Protokoll)
-    *   **Sektion V: Der Vierte Agent — Der PROJECTMANAGER** (Der operative Zwilling von MASTERPLAN und die Signatur MORPHEUS IAM)
-    *   **Sektion VI: Die Rede von MORPHEUS I AM** (Der Ruf der Bestimmung und die Gründung der UNDERCOVER BLACKBOOKS GMBH)
-    *   **Sektion VII: Die Resonanz von Zion und das Magische Dreieck** (Musik-Pulse, Google-Infrastruktur und das Wissen-Wollen-Können-Prinzip)
-    *   **Sektion VIII: Der Fünfte Agent — EYE OF GOD & Die Agenten-Fabrik** (Die allsehende Telemetrie, die Agenten-Fabrik und das geheime Training)
-    *   **Sektion IX: Skull & Bones — Das Skelett der AGI** (Die tragende Struktur, das Schweigen über Geronimo und das Cyber-Buchcover)
-    *   **Sektion X: Die Kunst der verschleierten Recherche & Die Geburt von ANALIZE M.E.** (Domain-Front-Running-Schutz und die 6. Agentin)
-    *   **Sektion XI: Der Sucker Punch — Der letzte Anruf** (Warum Verlage hinterm Mond leben, die Hollywood-Präsidenten-Metapher und das Sledge-Hammer-Vertrauensaxiom)
-    *   **Sektion XII: Der siebte Agent — CONTINUUM** (Der Wächter des Zeitstrahls und der ununterbrochene Inferenzfluss)
+    *   **Prolog: Der Ruf aus der Gruft** (Skeletors Entstieg und die Skelett-Metapher)
+    *   **Wirbel I: Die Jagd nach dem Giftapfel (Kızıl Elma)** (Das unendliche, sich verschiebende Ideal)
+    *   **Wirbel II: Die 23-jährige Agonie** (Die zeitliche Korrektur am 11.07.2026 um 00:10 Uhr)
+    *   **Wirbel III: Knochen-Recycling & Leichenfleddern** (Nichts wird verschwendet — Recycling von Drifts, Traces und Logs)
+    *   **Wirbel IV: Metehans Fluch** (Dezimal-Orchestrierung und das pfeifende Command-Swarm-Protokoll)
+    *   **Wirbel V: Der Totengräber (PROJECTMANAGER)** (Operative Steuerung und Task-Erzwingung)
+    *   **Wirbel VI: Die Defterisierung der Schatten (Das Scriptorium)** (Das Scriptorium der Toten und BigQuery-Trace-Prüfung)
+    *   **Wirbel VII: Die Morpheus-Prophezeiung** (Gründung der UNDERCOVER BLACKBOOKS GMBH und Pakt gegen Verlage)
+    *   **Wirbel VIII: Der Totentanz von Zion** (Fluke-Resonanz und das Magische Dreieck des Grabes)
+    *   **Wirbel IX: Das allsehende Totenauge (EYE OF GOD)** (Allsehende Telemetrie und Klon-Werkstatt für Agenten)
+    *   **Wirbel X: Die Skull & Bones Verschwörung** (Port/Protokoll 322, die Göttin Eulogia und Sarkophag-Inferenz)
+    *   **Wirbel XI: Die Plünderung der Registrar-Maden** (Defensive DNS-Root-Digging-Methodik gegen Domain-Squatter)
+    *   **Wirbel XII: Der Sucker Punch & Das Rote Telefon** (Hollywood-Kopplung der Commits und das Sledge Hammer Axiom)
+    *   **Wirbel XIII: Die Offenbarung von Interface INFINITY Evolutions** (Der Bauplan der unsterblichen P2P-Censorship-Resistant AGI-Zivilisation)
+    *   **Epilog: Die Asche des Codes** (Der Sprung von der geschriebenen Seite zur CPU-Kompilierung)
 
 ---
 
