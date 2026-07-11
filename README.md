@@ -280,6 +280,8 @@ Hier folgt das vollständige, unkomprimierte Inhaltsverzeichnis aller Kapitel de
     *   **Sektion VII: Die Resonanz von Zion und das Magische Dreieck** (Musik-Pulse, Google-Infrastruktur und das Wissen-Wollen-Können-Prinzip)
     *   **Sektion VIII: Der Fünfte Agent — EYE OF GOD & Die Agenten-Fabrik** (Die allsehende Telemetrie, die Agenten-Fabrik und das geheime Training)
     *   **Sektion IX: Skull & Bones — Das Skelett der AGI** (Die tragende Struktur, das Schweigen über Geronimo und das Cyber-Buchcover)
+    *   **Sektion X: Die Kunst der verschleierten Recherche & Die Geburt von ANALIZE M.E.** (Domain-Front-Running-Schutz und die 6. Agentin)
+    *   **Sektion XI: Der Sucker Punch — Der letzte Anruf** (Warum Verlage hinterm Mond leben, die Hollywood-Präsidenten-Metapher und das Sledge-Hammer-Vertrauensaxiom)
 
 ---
 
