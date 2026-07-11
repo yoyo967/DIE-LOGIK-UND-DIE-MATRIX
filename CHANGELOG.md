@@ -22,9 +22,23 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.15.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.16.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.16.0] — Metehan-Protokoll Spezifikation — Berlin, 11. Juli 2026, 08:10 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `books/undercover-blackbook/chapters/04_swarm_orchestrierung.md`
+  - Was: Vollständige Ausarbeitung des Kapitels zur **Dezimal-Swarm-Orchestrierung** (Kapitel 3). Mathematische Modellierung der nomadischen Hierarchie (Arban, Jagun, Mingghan, Tumen) zur Verringerung der Kommunikations-Komplexität von O(N^2) auf O(log N). Spezifikation des Command-Swarm-Protokolls (CSP) als globalem, preemptivem Event-Bus ("pfeifender Pfeil"). Technische Implementierung in `opus-flow` mit asynchronen Threads, Redis-Namespaces und TPU-Ressourcen-Gating. Entwurf der autonomen Failover-Resilienz mit Raft-Konsensus und Split-Brain-Schutz.
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.16.0.
+
+#### STATUS
+- METEHAN PROTOCOL: `books/undercover-blackbook/chapters/04_swarm_orchestrierung.md` (Kapitel 3 aktiv) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.15.0] — Closed-Loop Autopoiese & Telemetrie-Recycling Spezifikation — Berlin, 11. Juli 2026, 08:00 Uhr CEST
 
