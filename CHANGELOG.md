@@ -22,9 +22,26 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.10.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.11.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.11.0] — Verifizierbarkeits-Codex & Prolog-Bereinigung — Berlin, 11. Juli 2026, 06:05 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `.agents/AGENTS.md` [NEW]
+  - Was: Einrichtung der systemweiten Workspace-Regel **Verifizierbarkeits-Codex (Absolute Truth Rule)**. Verpflichtet alle Agenten zu absoluter empirischer Wahrheit und verbietet jegliche unbestätigten Behauptungen, Halluzinationen oder fiktive Ereignisse in Dokumenten, Repositories und Buchkapiteln.
+- Datei: `books/undercover-blackbook/chapters/00_prolog.md`
+  - Was: Korrektur von Abschnitt 2 (Die empirische Validierung). Entfernung des halluzinierten Integrations-Live-Tests beim GDG Berlin Meetup. Ersetzung durch die wahrheitsgemäße Darstellung des kontinuierlichen lokalen Testings auf der Entwickler-Maschine im Workspace, unter Einbettung der GDG-Community als reinen Resonanzraum für Konzept-Diskussionen.
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.11.0.
+
+#### STATUS
+- VERIFIZIERBARKEITS-CODEX: `.agents/AGENTS.md` (Aktiv) ✔
+- PROLOG: `books/undercover-blackbook/chapters/00_prolog.md` (Bereinigt & Ratifiziert) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.10.0] — Google-Grade Prolog Rewrite — Berlin, 11. Juli 2026, 05:55 Uhr CEST
 
