@@ -1,0 +1,1 @@
+# CODEOWNERS — DIE LOGIK & DIE MATRIX\n# Automatische Reviewer-Zuweisung gemaess Konzil-Protokoll\n\n# Globaler Fallback\n*                           @yoyo967\n\n# Kritische Systemkomponenten\n/apps/local-bridge/         @yoyo967\n/gcp-infra/                 @yoyo967\n/.agents/AGENTS.md          @yoyo967\n\n# Buecher (Content-Layer)\n/books/                     @yoyo967\n

@@ -1,0 +1,23 @@
+# LICENSE-BOOKS — Creative Commons Attribution 4.0 International
+
+Dieses Repository verwendet Dual-Licensing:
+
+- Code (apps/, gcp-infra/, tests/, *.py, *.tf) -> siehe LICENSE (MIT)
+- Dokumentation & Buecher (books/, alle *.md-Dateien im Root und in books/)
+  -> CC BY 4.0
+
+## CC BY 4.0 Zusammenfassung
+
+Sie duerfen:
+- Teilen — das Material in jedem Format kopieren und weiterverbreiten
+- Bearbeiten — das Material remixen, veraendern und darauf aufbauen,
+  fuer beliebige Zwecke, auch kommerziell
+
+Unter folgender Bedingung:
+- Namensnennung — Sie muessen angemessene Urheber- und Rechteangaben
+  machen: "Yahya Yildirim & Perplexity AI"
+
+Vollstaendiger Lizenztext: https://creativecommons.org/licenses/by/4.0/legalcode
+
+---
+Stand: 11. Juli 2026 | Projekt: DIE LOGIK & DIE MATRIX / UNIVERSE M.E.
