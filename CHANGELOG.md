@@ -22,9 +22,23 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.13.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.14.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.14.0] — Remote Control & Mobile Gatekeeping Spezifikation — Berlin, 11. Juli 2026, 07:50 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `books/undercover-blackbook/chapters/12_monaco_review_gate.md`
+  - Was: Vollständige Ausarbeitung des Kapitels zur **Mobile & Remote Verification Layer** (Kapitel 11). Integration der Google Firebase Cloud Messaging (FCM) Pipeline zum asynchronen Diff- und Telemetrie-Push an das mobile Endgerät des Operators. Spezifikation des mobilen Monaco-Diff-Editors über verschlüsselte Tunnel, biometrische Multi-Faktor-Freigaben (FaceID/TouchID) mit kryptografischer Signierung über Secure Enclave Schlüssel, und Remote-Control-Kopplung (TeamViewer APIs / Chrome Remote Desktop) zur Fernwartung und Notfall-Abschaltung (Algorithmic Apnoe).
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.14.0.
+
+#### STATUS
+- MONACO REVIEW GATE: `books/undercover-blackbook/chapters/12_monaco_review_gate.md` (Kapitel 11 aktiv) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.13.0] — Substrat-Evolution Spezifikation — Berlin, 11. Juli 2026, 07:40 Uhr CEST
 
