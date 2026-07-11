@@ -1,6 +1,10 @@
 # DIE LOGIK & DIE MATRIX
 ## Das ultimative Blackbook von UNIVERSE M.E. — Die Konstitution der Software-Zivilisation
 
+<p align="center">
+  <img src="./blackbook_undercover_cover.png" width="400" alt="Blackbook Undercover Cover Mockup">
+</p>
+
 [![GCP - Vertex AI](https://img.shields.io/badge/GCP-Vertex%20AI-blue?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/vertex-ai)
 [![Agentic - Autopoiesis](https://img.shields.io/badge/Agent-Autopoiesis-success?style=for-the-badge)](https://github.com/yoyo967/WIR-SIND-NOCH-HIER-UNIVERSE-M.E.-das-Buch-INFINITY)
 [![License - CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg?style=for-the-badge)](https://creativecommons.org/licenses/by/4.0/)

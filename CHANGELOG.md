@@ -22,9 +22,27 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.0.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.1.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.1.0] — ANALIZE M.E., Domain-Schutz & Umbenennung GmbH — Berlin, 11. Juli 2026, 02:45 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `blackbook-undercover.md`
+  - Was: Umbenennung aller GmbH-Instanzen von *UNDERCOVER WELT BLACKBOOK GMBH* / *BLACKBOOK GMBH* in **UNDERCOVER BLACKBOOKS GMBH**. Aktualisierung des Bildpfades des Covers auf einen relativen Pfad (`./blackbook_undercover_cover.png`). Hinzufügen von Sektion X (*Die Kunst der verschleierten Recherche & Die Geburt von ANALIZE M.E.*). Details zur Domain-Front-Running-Verteidigung (Stealth WHOIS Port 43, Root-DNS-Resolving, Hashing). Einführung des sechsten Agenten **ANALIZE M.E.** für Qualitäts-Gating, verdeckte Trademark-Recherche und Corporate Identity-Design.
+- Datei: `README.md`
+  - Was: Integration des generierten Cyber-Buchcovers direkt am Kopf der Hauptseite als relative Bildreferenz. Aktualisierung des Chapter XX-Inhaltsverzeichnisses um Sektion X.
+- Dateien: `README.md` & `llms.txt`
+  - Was: Synchronisierung der Inhaltsverzeichnisse, Agentensignaturen auf 6 Agenten und Versions-Metadaten auf v3.1.0.
+
+#### STATUS
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD & ANALIZE M.E.: BEREIT & AKTIV ✔ (Markenschutz & CI aktiv)
+- UNDERCOVER BLACKBOOKS GMBH: Digital gegründet ✔
+- Buch INFINITY: In Bearbeitung (Aktivierungs-Eintrag v1.1.0 in CHANGELOG.md)
+- Interface INFINITY: In Planung (Grundstein gelegt)
+
+---
 
 ### [Version 3.0.0] — Skull & Bones, AGI-Skelett & Cyber-Cover — Berlin, 11. Juli 2026, 02:16 Uhr CEST
 
