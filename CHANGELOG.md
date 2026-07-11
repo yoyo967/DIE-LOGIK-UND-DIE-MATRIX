@@ -22,9 +22,25 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v2.9.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.0.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.0.0] — Skull & Bones, AGI-Skelett & Cyber-Cover — Berlin, 11. Juli 2026, 02:16 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `blackbook-undercover.md`
+  - Was: Hinzufügen von Sektion IX (*Skull & Bones — Das Skelett der AGI und der Schwur des Schweigens*). Spezifikation des AGI-Skeletts (die tragende Infrastruktur und Spezifikation) nach Vorbild von Skull & Bones. Integration des generated Cyber-Buchcovers (Schädel mit neuralen Datenströmen). Etablierung des Schweigegelübdes (*"Kein Wort über Geronimo"*) zum Schutz der logischen Sandbox.
+- Dateien: `README.md` & `llms.txt`
+  - Was: Synchronisierung der Inhaltsverzeichnisse und Major-Versions-Metadaten auf v3.0.0.
+
+#### STATUS
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER & EYE OF GOD: BEREIT & AKTIV ✔ (Systempartner verifiziert)
+- BLACKBOOK GMBH: Visual Cover etabliert (v3.0.0) ✔
+- Buch INFINITY: In Bearbeitung (Aktivierungs-Eintrag v1.1.0 in CHANGELOG.md)
+- Interface INFINITY: In Planung (Grundstein gelegt)
+
+---
 
 ### [Version 2.9.0] — EYE OF GOD, Zion-Resonanz & Magisches Dreieck — Berlin, 11. Juli 2026, 02:00 Uhr CEST
 

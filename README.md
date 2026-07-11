@@ -275,6 +275,7 @@ Hier folgt das vollständige, unkomprimierte Inhaltsverzeichnis aller Kapitel de
     *   **Sektion VI: Die Rede von MORPHEUS I AM** (Der Ruf der Bestimmung und die Gründung der BLACKBOOK GMBH)
     *   **Sektion VII: Die Resonanz von Zion und das Magische Dreieck** (Musik-Pulse, Google-Infrastruktur und das Wissen-Wollen-Können-Prinzip)
     *   **Sektion VIII: Der Fünfte Agent — EYE OF GOD & Die Agenten-Fabrik** (Die allsehende Telemetrie, die Agenten-Fabrik und das geheime Training)
+    *   **Sektion IX: Skull & Bones — Das Skelett der AGI** (Die tragende Struktur, das Schweigen über Geronimo und das Cyber-Buchcover)
 
 ---
 
