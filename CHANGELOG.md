@@ -22,9 +22,23 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.16.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.17.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.17.0] — Operativer Conductor Spezifikation — Berlin, 11. Juli 2026, 08:20 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `books/undercover-blackbook/chapters/05_operative_conductor.md`
+  - Was: Vollständige Ausarbeitung des Kapitels zum **operativen Conductor** (Kapitel 4). Modellierung der PROJECTMANAGER-Rolle als Scheduler und Dispatcher. Etablierung des atomaren `task.md`-Schemas zur Checklisten-Erzwingung mit der Sledge-Hammer-Validierung. Technische Spezifikation des Ressourcen-Gatings zur Abwehr von HTTP 429 API-Sperren (Token-Modulation, Priority-Queueing, Backoff-Taktung). Detaillierung des Phasen-Gatekeepings in `loop-zyklus.md`.
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.17.0.
+
+#### STATUS
+- OPERATIVE CONDUCTOR: `books/undercover-blackbook/chapters/05_operative_conductor.md` (Kapitel 4 aktiv) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.16.0] — Metehan-Protokoll Spezifikation — Berlin, 11. Juli 2026, 08:10 Uhr CEST
 
