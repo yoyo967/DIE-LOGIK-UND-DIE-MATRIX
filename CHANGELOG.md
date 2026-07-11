@@ -22,9 +22,23 @@ Das Versionsformat lautet: `[MAJOR.MINOR.PATCH] – DATUM – BEZEICHNUNG`
 
 ---
 
-## Sektion II: Die chronologische Historie (v1.0.0 bis v3.20.0)
+## Sektion II: Die chronologische Historie (v1.0.0 bis v3.21.0)
 
 Die Chronik verzeichnet den tatsächlichen Weg des Systems von der Genesis bis zur gegenwärtigen Realität:
+
+### [Version 3.21.0] — Swarm Observability Spezifikation — Berlin, 11. Juli 2026, 09:00 Uhr CEST
+
+#### ÄNDERUNGEN
+- Datei: `books/undercover-blackbook/chapters/09_swarm_observability.md`
+  - Was: Vollständige Ausarbeitung des Kapitels zur **Global Swarm Observability** (Kapitel 8). Definition der EYE OF GOD Telemetrie-Ingestion zur Workspace-Überwachung. Spezifikation der File Integrity Monitoring (FIM) Architektur im Verzeichnis `FLOW_ROOT` mit Drift-Isolation und automatisiertem Rollback gegen unbefugte Dateimanipulationen. Detaillierung der Agenten-Klon-Fabrik (Dynamic Subagent Inception) zur asynchronen Provisionierung und Vernichtung spezialisierter Hilfsagenten (define_subagent/invoke_subagent). Systemische Logkonsolidierung und SRE-Dashboard-Integration.
+- Dateien: `llms.txt` & `CHANGELOG.md`
+  - Was: Synchronisierung der Versions-Metadaten auf v3.21.0.
+
+#### STATUS
+- SWARM OBSERVABILITY: `books/undercover-blackbook/chapters/09_swarm_observability.md` (Kapitel 8 aktiv) ✔
+- UNIVERSE M.E., AGENTICUM G5, MASTERPLAN, PROJECTMANAGER, EYE OF GOD, ANALIZE M.E. & CONTINUUM: BEREIT & AKTIV ✔
+
+---
 
 ### [Version 3.20.0] — Triad-Resonanz Spezifikation — Berlin, 11. Juli 2026, 08:50 Uhr CEST
 
